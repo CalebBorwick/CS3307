@@ -1,0 +1,308 @@
+\hypertarget{classWindow}{}\section{Window Class Reference}
+\label{classWindow}\index{Window@{Window}}
+
+
+\mbox{[}0\mbox{]}  
+
+
+
+
+{\ttfamily \#include $<$window.\+h$>$}
+
+
+
+Inheritance diagram for Window\+:
+% FIG 0
+
+
+Collaboration diagram for Window\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_a74e6087da23d3c24e9fac0245e5ec92c}\label{classWindow_a74e6087da23d3c24e9fac0245e5ec92c}} 
+\hyperlink{classWindow_a74e6087da23d3c24e9fac0245e5ec92c}{Window} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}0\mbox{]} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_a698bf8f8aae40f9a5622f38c0b27b65d}\label{classWindow_a698bf8f8aae40f9a5622f38c0b27b65d}} 
+void \hyperlink{classWindow_a698bf8f8aae40f9a5622f38c0b27b65d}{locale\+Changed} (int index)
+\begin{DoxyCompactList}\small\item\em \mbox{[}0\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_a680efd151f329bea8f0196b3c709dd66}\label{classWindow_a680efd151f329bea8f0196b3c709dd66}} 
+void \hyperlink{classWindow_a680efd151f329bea8f0196b3c709dd66}{first\+Day\+Changed} (int index)
+\begin{DoxyCompactList}\small\item\em \mbox{[}1\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_a56ef4af7bab59bf91b4a0725afa71d03}\label{classWindow_a56ef4af7bab59bf91b4a0725afa71d03}} 
+void \hyperlink{classWindow_a56ef4af7bab59bf91b4a0725afa71d03}{selection\+Mode\+Changed} (int index)
+\begin{DoxyCompactList}\small\item\em \mbox{[}1\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_adc434a45ee11d3d39a7005692cadd80c}\label{classWindow_adc434a45ee11d3d39a7005692cadd80c}} 
+void {\bfseries horizontal\+Header\+Changed} (int index)
+\item 
+\mbox{\Hypertarget{classWindow_a8592a640235aed61394d1d685a9cc69e}\label{classWindow_a8592a640235aed61394d1d685a9cc69e}} 
+void {\bfseries vertical\+Header\+Changed} (int index)
+\item 
+\mbox{\Hypertarget{classWindow_aa704742f836c5ab9d67172f2833375cd}\label{classWindow_aa704742f836c5ab9d67172f2833375cd}} 
+void \hyperlink{classWindow_aa704742f836c5ab9d67172f2833375cd}{selected\+Date\+Changed} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}2\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_a0c0b69753fde608ab6648cdd305f1bbc}{minimum\+Date\+Changed} (const Q\+Date \&date)
+\begin{DoxyCompactList}\small\item\em \mbox{[}2\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_acb86c6588b32517a1ece1bbef7add6aa}{maximum\+Date\+Changed} (const Q\+Date \&date)
+\begin{DoxyCompactList}\small\item\em \mbox{[}3\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_a08dc3eebd55f98888cf0fe1df6c3398c}{weekday\+Format\+Changed} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}4\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_ae9d4d4b1b9090fcb53ea47ad4b873631}{weekend\+Format\+Changed} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}5\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_aa2f8193c9cb6371ac40a1fa2dbe1aa7d}{reformat\+Headers} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}6\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_a74ce9739aa70bfa64313a3f2a3ee8046}{reformat\+Calendar\+Page} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}7\mbox{]} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classWindow_ad556c27e5fe6ef380eb9f026c0150fca}{create\+Preview\+Group\+Box} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}8\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_ae115429c6a1a545c5b7b0d75b51bccd8}{create\+General\+Options\+Group\+Box} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}9\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_adf2522f4f09f7fab040e0559b1b5b434}{create\+Dates\+Group\+Box} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}12\mbox{]} \end{DoxyCompactList}\item 
+void \hyperlink{classWindow_ab63c08f28469345f0bbfcf8a543293fd}{create\+Text\+Formats\+Group\+Box} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}15\mbox{]} \end{DoxyCompactList}\item 
+Q\+Combo\+Box $\ast$ \hyperlink{classWindow_a9d22f996bc9590302cb32d20c470aa30}{create\+Color\+Combo\+Box} ()
+\begin{DoxyCompactList}\small\item\em \mbox{[}19\mbox{]} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_a085bb17fc61855c73ecce04a5118bf3e}\label{classWindow_a085bb17fc61855c73ecce04a5118bf3e}} 
+Q\+Group\+Box $\ast$ {\bfseries preview\+Group\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_a359b763a116008491b06e4d3fd12b0d0}\label{classWindow_a359b763a116008491b06e4d3fd12b0d0}} 
+Q\+Grid\+Layout $\ast$ {\bfseries preview\+Layout}
+\item 
+\mbox{\Hypertarget{classWindow_ad789a1014379c26269e7d2046d7d3ed9}\label{classWindow_ad789a1014379c26269e7d2046d7d3ed9}} 
+Q\+Calendar\+Widget $\ast$ {\bfseries calendar}
+\item 
+\mbox{\Hypertarget{classWindow_ab941784ed8bec98826c0f9c851c73728}\label{classWindow_ab941784ed8bec98826c0f9c851c73728}} 
+Q\+Group\+Box $\ast$ {\bfseries general\+Options\+Group\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_ae13585a2947000a7a9aa09beb072da1b}\label{classWindow_ae13585a2947000a7a9aa09beb072da1b}} 
+Q\+Label $\ast$ {\bfseries locale\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_af1b3ec69354c4b08702c4f240bf50e1c}\label{classWindow_af1b3ec69354c4b08702c4f240bf50e1c}} 
+Q\+Label $\ast$ {\bfseries first\+Day\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_a7ad6d0d0cd3120eb6fff865e03a3f73c}\label{classWindow_a7ad6d0d0cd3120eb6fff865e03a3f73c}} 
+Q\+Label $\ast$ \hyperlink{classWindow_a7ad6d0d0cd3120eb6fff865e03a3f73c}{selection\+Mode\+Label}
+\begin{DoxyCompactList}\small\item\em \mbox{[}0\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_ac1d3b593e3a2f71b779001dcd716248c}\label{classWindow_ac1d3b593e3a2f71b779001dcd716248c}} 
+Q\+Label $\ast$ {\bfseries horizontal\+Header\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_a49aad74bbd3037d9a7bfb4d5c712b6ec}\label{classWindow_a49aad74bbd3037d9a7bfb4d5c712b6ec}} 
+Q\+Label $\ast$ {\bfseries vertical\+Header\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_a67dafb9be81d4fc0cf74935614b5f780}\label{classWindow_a67dafb9be81d4fc0cf74935614b5f780}} 
+Q\+Combo\+Box $\ast$ {\bfseries locale\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_a0ada8d4555899b1ac6293657e691f0c5}\label{classWindow_a0ada8d4555899b1ac6293657e691f0c5}} 
+Q\+Combo\+Box $\ast$ {\bfseries first\+Day\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_aaa7f9f2c528634eb659473cbaed8ccfd}\label{classWindow_aaa7f9f2c528634eb659473cbaed8ccfd}} 
+Q\+Combo\+Box $\ast$ {\bfseries selection\+Mode\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_a626b804d411154e5dbc6ef3c430b70d8}\label{classWindow_a626b804d411154e5dbc6ef3c430b70d8}} 
+Q\+Check\+Box $\ast$ {\bfseries grid\+Check\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_ad39b7e85ae32c79f00155d0d893fc0b5}\label{classWindow_ad39b7e85ae32c79f00155d0d893fc0b5}} 
+Q\+Check\+Box $\ast$ {\bfseries navigation\+Check\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_a0cb7b8a9e861e98955a2833f45529d33}\label{classWindow_a0cb7b8a9e861e98955a2833f45529d33}} 
+Q\+Combo\+Box $\ast$ {\bfseries horizontal\+Header\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_ac80a720118322ed899a0ce4ea1323d10}\label{classWindow_ac80a720118322ed899a0ce4ea1323d10}} 
+Q\+Combo\+Box $\ast$ {\bfseries vertical\+Header\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_ae29e4e9f6a8d33b2608db136c01872dc}\label{classWindow_ae29e4e9f6a8d33b2608db136c01872dc}} 
+Q\+Group\+Box $\ast$ {\bfseries dates\+Group\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_a869028d31bb16e9ef7fd0bff78eebe85}\label{classWindow_a869028d31bb16e9ef7fd0bff78eebe85}} 
+Q\+Label $\ast$ {\bfseries current\+Date\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_aaf9b4614b1a2200fff5c3a5371ae964c}\label{classWindow_aaf9b4614b1a2200fff5c3a5371ae964c}} 
+Q\+Label $\ast$ {\bfseries minimum\+Date\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_a30608251214cdd0ad3a685c99154eac5}\label{classWindow_a30608251214cdd0ad3a685c99154eac5}} 
+Q\+Label $\ast$ {\bfseries maximum\+Date\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_af0df87b74c3a249504334bc5ac9038e9}\label{classWindow_af0df87b74c3a249504334bc5ac9038e9}} 
+Q\+Date\+Edit $\ast$ {\bfseries current\+Date\+Edit}
+\item 
+\mbox{\Hypertarget{classWindow_a5cb9e906b9cce6c10b09eb77b2ce89f1}\label{classWindow_a5cb9e906b9cce6c10b09eb77b2ce89f1}} 
+Q\+Date\+Edit $\ast$ {\bfseries minimum\+Date\+Edit}
+\item 
+\mbox{\Hypertarget{classWindow_ae22ce2736434e2ad35355e9677ff4709}\label{classWindow_ae22ce2736434e2ad35355e9677ff4709}} 
+Q\+Date\+Edit $\ast$ {\bfseries maximum\+Date\+Edit}
+\item 
+\mbox{\Hypertarget{classWindow_a07aa57b8c0a821e68a57ca35b13f5d0b}\label{classWindow_a07aa57b8c0a821e68a57ca35b13f5d0b}} 
+Q\+Group\+Box $\ast$ {\bfseries text\+Formats\+Group\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_ae3ca8831a2b16c00a55a510845036d85}\label{classWindow_ae3ca8831a2b16c00a55a510845036d85}} 
+Q\+Label $\ast$ {\bfseries weekday\+Color\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_aaecc1d98e4fdc6fdac1373ab81b25971}\label{classWindow_aaecc1d98e4fdc6fdac1373ab81b25971}} 
+Q\+Label $\ast$ {\bfseries weekend\+Color\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_a0d93f14a81fd29ea26350e7dead686e5}\label{classWindow_a0d93f14a81fd29ea26350e7dead686e5}} 
+Q\+Label $\ast$ {\bfseries header\+Text\+Format\+Label}
+\item 
+\mbox{\Hypertarget{classWindow_ae4e60b15cb34c510a395327682d3ddd3}\label{classWindow_ae4e60b15cb34c510a395327682d3ddd3}} 
+Q\+Combo\+Box $\ast$ {\bfseries weekday\+Color\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_a1991117589e8a00d9a42dc50fce43ade}\label{classWindow_a1991117589e8a00d9a42dc50fce43ade}} 
+Q\+Combo\+Box $\ast$ {\bfseries weekend\+Color\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_abaf69ad1d9c473d3005b24652b5f9379}\label{classWindow_abaf69ad1d9c473d3005b24652b5f9379}} 
+Q\+Combo\+Box $\ast$ {\bfseries header\+Text\+Format\+Combo}
+\item 
+\mbox{\Hypertarget{classWindow_a3155ededa41c249d542e4059b6403fdb}\label{classWindow_a3155ededa41c249d542e4059b6403fdb}} 
+Q\+Check\+Box $\ast$ {\bfseries first\+Friday\+Check\+Box}
+\item 
+\mbox{\Hypertarget{classWindow_aede4948c205f0df611eb485e0d9ce839}\label{classWindow_aede4948c205f0df611eb485e0d9ce839}} 
+Q\+Check\+Box $\ast$ \hyperlink{classWindow_aede4948c205f0df611eb485e0d9ce839}{may\+First\+Check\+Box}
+\begin{DoxyCompactList}\small\item\em \mbox{[}1\mbox{]} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{[}0\mbox{]} 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classWindow_a9d22f996bc9590302cb32d20c470aa30}\label{classWindow_a9d22f996bc9590302cb32d20c470aa30}} 
+\index{Window@{Window}!create\+Color\+Combo\+Box@{create\+Color\+Combo\+Box}}
+\index{create\+Color\+Combo\+Box@{create\+Color\+Combo\+Box}!Window@{Window}}
+\subsubsection{\texorpdfstring{create\+Color\+Combo\+Box()}{createColorComboBox()}}
+{\footnotesize\ttfamily Q\+Combo\+Box $\ast$ Window\+::create\+Color\+Combo\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\mbox{[}19\mbox{]} 
+
+\mbox{[}20\mbox{]} \mbox{\Hypertarget{classWindow_adf2522f4f09f7fab040e0559b1b5b434}\label{classWindow_adf2522f4f09f7fab040e0559b1b5b434}} 
+\index{Window@{Window}!create\+Dates\+Group\+Box@{create\+Dates\+Group\+Box}}
+\index{create\+Dates\+Group\+Box@{create\+Dates\+Group\+Box}!Window@{Window}}
+\subsubsection{\texorpdfstring{create\+Dates\+Group\+Box()}{createDatesGroupBox()}}
+{\footnotesize\ttfamily void Window\+::create\+Dates\+Group\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\mbox{[}12\mbox{]} 
+
+\mbox{[}13\mbox{]} \mbox{[}13\mbox{]} //! \mbox{[}14\mbox{]}
+
+\mbox{[}14\mbox{]}
+
+\mbox{[}15\mbox{]} \mbox{\Hypertarget{classWindow_ae115429c6a1a545c5b7b0d75b51bccd8}\label{classWindow_ae115429c6a1a545c5b7b0d75b51bccd8}} 
+\index{Window@{Window}!create\+General\+Options\+Group\+Box@{create\+General\+Options\+Group\+Box}}
+\index{create\+General\+Options\+Group\+Box@{create\+General\+Options\+Group\+Box}!Window@{Window}}
+\subsubsection{\texorpdfstring{create\+General\+Options\+Group\+Box()}{createGeneralOptionsGroupBox()}}
+{\footnotesize\ttfamily void Window\+::create\+General\+Options\+Group\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\mbox{[}9\mbox{]} 
+
+\mbox{[}10\mbox{]} \mbox{[}10\mbox{]}
+
+\mbox{[}11\mbox{]}
+
+\mbox{[}11\mbox{]}
+
+\mbox{[}12\mbox{]} \mbox{\Hypertarget{classWindow_ad556c27e5fe6ef380eb9f026c0150fca}\label{classWindow_ad556c27e5fe6ef380eb9f026c0150fca}} 
+\index{Window@{Window}!create\+Preview\+Group\+Box@{create\+Preview\+Group\+Box}}
+\index{create\+Preview\+Group\+Box@{create\+Preview\+Group\+Box}!Window@{Window}}
+\subsubsection{\texorpdfstring{create\+Preview\+Group\+Box()}{createPreviewGroupBox()}}
+{\footnotesize\ttfamily void Window\+::create\+Preview\+Group\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\mbox{[}8\mbox{]} 
+
+\mbox{[}9\mbox{]} \mbox{\Hypertarget{classWindow_ab63c08f28469345f0bbfcf8a543293fd}\label{classWindow_ab63c08f28469345f0bbfcf8a543293fd}} 
+\index{Window@{Window}!create\+Text\+Formats\+Group\+Box@{create\+Text\+Formats\+Group\+Box}}
+\index{create\+Text\+Formats\+Group\+Box@{create\+Text\+Formats\+Group\+Box}!Window@{Window}}
+\subsubsection{\texorpdfstring{create\+Text\+Formats\+Group\+Box()}{createTextFormatsGroupBox()}}
+{\footnotesize\ttfamily void Window\+::create\+Text\+Formats\+Group\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\mbox{[}15\mbox{]} 
+
+\mbox{[}16\mbox{]} \mbox{[}16\mbox{]} //! \mbox{[}17\mbox{]}
+
+\mbox{[}17\mbox{]} //! \mbox{[}18\mbox{]}
+
+\mbox{[}18\mbox{]}
+
+\mbox{[}19\mbox{]} \mbox{\Hypertarget{classWindow_acb86c6588b32517a1ece1bbef7add6aa}\label{classWindow_acb86c6588b32517a1ece1bbef7add6aa}} 
+\index{Window@{Window}!maximum\+Date\+Changed@{maximum\+Date\+Changed}}
+\index{maximum\+Date\+Changed@{maximum\+Date\+Changed}!Window@{Window}}
+\subsubsection{\texorpdfstring{maximum\+Date\+Changed}{maximumDateChanged}}
+{\footnotesize\ttfamily void Window\+::maximum\+Date\+Changed (\begin{DoxyParamCaption}\item[{const Q\+Date \&}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}3\mbox{]} 
+
+\mbox{[}4\mbox{]} \mbox{\Hypertarget{classWindow_a0c0b69753fde608ab6648cdd305f1bbc}\label{classWindow_a0c0b69753fde608ab6648cdd305f1bbc}} 
+\index{Window@{Window}!minimum\+Date\+Changed@{minimum\+Date\+Changed}}
+\index{minimum\+Date\+Changed@{minimum\+Date\+Changed}!Window@{Window}}
+\subsubsection{\texorpdfstring{minimum\+Date\+Changed}{minimumDateChanged}}
+{\footnotesize\ttfamily void Window\+::minimum\+Date\+Changed (\begin{DoxyParamCaption}\item[{const Q\+Date \&}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}2\mbox{]} 
+
+\mbox{[}3\mbox{]} \mbox{\Hypertarget{classWindow_a74ce9739aa70bfa64313a3f2a3ee8046}\label{classWindow_a74ce9739aa70bfa64313a3f2a3ee8046}} 
+\index{Window@{Window}!reformat\+Calendar\+Page@{reformat\+Calendar\+Page}}
+\index{reformat\+Calendar\+Page@{reformat\+Calendar\+Page}!Window@{Window}}
+\subsubsection{\texorpdfstring{reformat\+Calendar\+Page}{reformatCalendarPage}}
+{\footnotesize\ttfamily void Window\+::reformat\+Calendar\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}7\mbox{]} 
+
+\mbox{[}8\mbox{]} \mbox{\Hypertarget{classWindow_aa2f8193c9cb6371ac40a1fa2dbe1aa7d}\label{classWindow_aa2f8193c9cb6371ac40a1fa2dbe1aa7d}} 
+\index{Window@{Window}!reformat\+Headers@{reformat\+Headers}}
+\index{reformat\+Headers@{reformat\+Headers}!Window@{Window}}
+\subsubsection{\texorpdfstring{reformat\+Headers}{reformatHeaders}}
+{\footnotesize\ttfamily void Window\+::reformat\+Headers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}6\mbox{]} 
+
+\mbox{[}7\mbox{]} \mbox{\Hypertarget{classWindow_a08dc3eebd55f98888cf0fe1df6c3398c}\label{classWindow_a08dc3eebd55f98888cf0fe1df6c3398c}} 
+\index{Window@{Window}!weekday\+Format\+Changed@{weekday\+Format\+Changed}}
+\index{weekday\+Format\+Changed@{weekday\+Format\+Changed}!Window@{Window}}
+\subsubsection{\texorpdfstring{weekday\+Format\+Changed}{weekdayFormatChanged}}
+{\footnotesize\ttfamily void Window\+::weekday\+Format\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}4\mbox{]} 
+
+\mbox{[}5\mbox{]} \mbox{\Hypertarget{classWindow_ae9d4d4b1b9090fcb53ea47ad4b873631}\label{classWindow_ae9d4d4b1b9090fcb53ea47ad4b873631}} 
+\index{Window@{Window}!weekend\+Format\+Changed@{weekend\+Format\+Changed}}
+\index{weekend\+Format\+Changed@{weekend\+Format\+Changed}!Window@{Window}}
+\subsubsection{\texorpdfstring{weekend\+Format\+Changed}{weekendFormatChanged}}
+{\footnotesize\ttfamily void Window\+::weekend\+Format\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\mbox{[}5\mbox{]} 
+
+\mbox{[}6\mbox{]} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+window.\+h\item 
+window.\+cpp\end{DoxyCompactItemize}
