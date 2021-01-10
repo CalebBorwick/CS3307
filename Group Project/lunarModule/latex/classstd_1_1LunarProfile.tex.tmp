@@ -1,0 +1,333 @@
+\hypertarget{classstd_1_1LunarProfile}{}\section{std\+:\+:Lunar\+Profile Class Reference}
+\label{classstd_1_1LunarProfile}\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+
+
+The \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class\+: class containing all functions nessisary for the \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}.  
+
+
+
+
+{\ttfamily \#include $<$lunarprofile.\+h$>$}
+
+
+
+Inheritance diagram for std\+:\+:Lunar\+Profile\+:
+% FIG 0
+
+
+Collaboration diagram for std\+:\+:Lunar\+Profile\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1LunarProfile_a5f709410eac35efeb72bfd164a903c9d}{rest\+Api\+Request} ()
+\begin{DoxyCompactList}\small\item\em rest\+Api\+Request\+: creates the api call request. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_af18f6f2798aa50625cec95c9ea2cd506}{on\+Rest\+Api\+Finished} (Q\+Network\+Reply $\ast$)
+\begin{DoxyCompactList}\small\item\em on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1LunarProfile_a98cd84372344d1cd58e8e83b378bebdb}{data\+Changed} (Q\+Json\+Object)
+\begin{DoxyCompactList}\small\item\em data\+Changed\+: singal for if the Q\+Json\+Object is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstd_1_1LunarProfile_a39d5e151d536fc8860af0fb9aa4ca89b}{Lunar\+Profile} (Q\+Object $\ast$parent=nullptr, bool display\+Lunar=true, int location=55489)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}\+: constructor for \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class creates an object of type \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}. \end{DoxyCompactList}\item 
+\hyperlink{classstd_1_1LunarProfile_a32ef3e8b0b254075193aa77590aaeab0}{$\sim$\+Lunar\+Profile} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\+Lunar\+Profile\+: destructor for \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} Class. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classstd_1_1LunarProfile_a28e6b5155bdac5aa9b180108e592c11c}{Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_a18899f16d1a29026f6771f5a44e68a58}{set\+Json\+Data} (const Q\+Json\+Object \&data)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Data\+: setter method for the my\+Json\+Data. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1LunarProfile_abe23632fcd62702ff5baeb44c07f929b}{get\+Display\+Lunar\+Phase} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Lunar\+Phase\+: getter method for the display\+Lunar\+Phase bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_a717befeec08194dbac72b1d4954a0749}{set\+Display\+Lunar\+Phase} (bool lunar\+Phase)
+\begin{DoxyCompactList}\small\item\em set\+Display\+Lunar\+Phase\+: setter method for display\+Lunar\+Phase bool. \end{DoxyCompactList}\item 
+int \hyperlink{classstd_1_1LunarProfile_ac42034b50b217e38402fc6928feee350}{get\+Location} ()
+\begin{DoxyCompactList}\small\item\em get\+Location\+: getter method for the location int. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_a49474221146eb01f16c6f5a2ef955987}{set\+Location} (int loc)
+\begin{DoxyCompactList}\small\item\em set\+Location\+: setter method for location int. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_a6001894eca7d131a0ffc8f056c7e5662}{create\+Lunar\+Phase\+Gui} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em create\+Lunar\+Phase\+Gui\+: creates the pop up window that displays the lunar\+Profile Gui. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1LunarProfile_a936929ef556143114c33aa596903288b}{get\+User\+Input} ()
+\begin{DoxyCompactList}\small\item\em get\+User\+Input\+: gets the user input to change parameters from default. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Network\+Access\+Manager $\ast$ \hyperlink{classstd_1_1LunarProfile_aca103ec32243d6e2abe5f0c68c66a063}{manager} = new Q\+Network\+Access\+Manager(this)
+\begin{DoxyCompactList}\small\item\em manager creates a new object manager of type Q\+Network\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classstd_1_1LunarProfile_a56b8ae5f9dcdb3dbd53ea518fb44f3c4}{Json\+Data}
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a1164164bcaee576919a2442eabf07812}\label{classstd_1_1LunarProfile_a1164164bcaee576919a2442eabf07812}} 
+Q\+Json\+Object \hyperlink{classstd_1_1LunarProfile_a1164164bcaee576919a2442eabf07812}{my\+Json\+Data}
+\begin{DoxyCompactList}\small\item\em class attributes for objects of type \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classstd_1_1LunarProfile_aef568436dd2ddc23ed5f26456d4cbb87}\label{classstd_1_1LunarProfile_aef568436dd2ddc23ed5f26456d4cbb87}} 
+bool {\bfseries display\+Lunar\+Phase}
+\item 
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a86603301d92338ec93ccf2019fb2fcd6}\label{classstd_1_1LunarProfile_a86603301d92338ec93ccf2019fb2fcd6}} 
+int {\bfseries location}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class\+: class containing all functions nessisary for the \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}. 
+
+The \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class contains the getters and setters for all parameters as well as a constructor and destructor for making and destorying objects of type \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} as well as the apicall and Qt\+Nework information for getting and requesting information from an api. The class also contains the function to create a gui to display the lunar phase information recieved from the api call \begin{DoxyAuthor}{Author}
+Ian Borwick 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a39d5e151d536fc8860af0fb9aa4ca89b}\label{classstd_1_1LunarProfile_a39d5e151d536fc8860af0fb9aa4ca89b}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!Lunar\+Profile@{Lunar\+Profile}}
+\index{Lunar\+Profile@{Lunar\+Profile}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{Lunar\+Profile()}{LunarProfile()}}
+{\footnotesize\ttfamily std\+::\+Lunar\+Profile\+::\+Lunar\+Profile (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr},  }\item[{bool}]{display\+Lunar = {\ttfamily true},  }\item[{int}]{location = {\ttfamily 55489} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}\+: constructor for \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class creates an object of type \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile}. 
+
+Creates an object of type \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} with the input parameters being set as the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+{\em display\+Lunar} & a bool to decide if the lunarphase gui will be displayed \\
+\hline
+{\em location} & an int representing the location to be used in the api call \\
+\hline
+\end{DoxyParams}
+$<$ attributes for the weather class
+
+$<$ creates the connection for the Api pull requests \mbox{\Hypertarget{classstd_1_1LunarProfile_a32ef3e8b0b254075193aa77590aaeab0}\label{classstd_1_1LunarProfile_a32ef3e8b0b254075193aa77590aaeab0}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!````~Lunar\+Profile@{$\sim$\+Lunar\+Profile}}
+\index{````~Lunar\+Profile@{$\sim$\+Lunar\+Profile}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{$\sim$\+Lunar\+Profile()}{~LunarProfile()}}
+{\footnotesize\ttfamily std\+::\+Lunar\+Profile\+::$\sim$\+Lunar\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+$\sim$\+Lunar\+Profile\+: destructor for \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} Class. 
+
+Destructor for the \hyperlink{classstd_1_1LunarProfile}{Lunar\+Profile} class objects 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a6001894eca7d131a0ffc8f056c7e5662}\label{classstd_1_1LunarProfile_a6001894eca7d131a0ffc8f056c7e5662}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!create\+Lunar\+Phase\+Gui@{create\+Lunar\+Phase\+Gui}}
+\index{create\+Lunar\+Phase\+Gui@{create\+Lunar\+Phase\+Gui}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{create\+Lunar\+Phase\+Gui()}{createLunarPhaseGui()}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::create\+Lunar\+Phase\+Gui (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+create\+Lunar\+Phase\+Gui\+: creates the pop up window that displays the lunar\+Profile Gui. 
+
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the lunar\+Phase\+Gui.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application \\
+\hline
+\end{DoxyParams}
+$<$ only displays if get\+Display weather is true
+
+$<$ creates Q\+Qui\+App
+
+$<$ cretes the content bridge to exposed c++ to the qml
+
+$<$ defines the qml file where the javascript styling is
+
+$<$ starts the gui \mbox{\Hypertarget{classstd_1_1LunarProfile_a98cd84372344d1cd58e8e83b378bebdb}\label{classstd_1_1LunarProfile_a98cd84372344d1cd58e8e83b378bebdb}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!data\+Changed@{data\+Changed}}
+\index{data\+Changed@{data\+Changed}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{data\+Changed}{dataChanged}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::data\+Changed (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{\+\_\+t1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+data\+Changed\+: singal for if the Q\+Json\+Object is changed. 
+
+if the Q\+Json\+Object is changed send the singal to allow for the data to be loaded in again with the updated data. \mbox{\Hypertarget{classstd_1_1LunarProfile_abe23632fcd62702ff5baeb44c07f929b}\label{classstd_1_1LunarProfile_abe23632fcd62702ff5baeb44c07f929b}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!get\+Display\+Lunar\+Phase@{get\+Display\+Lunar\+Phase}}
+\index{get\+Display\+Lunar\+Phase@{get\+Display\+Lunar\+Phase}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Lunar\+Phase()}{getDisplayLunarPhase()}}
+{\footnotesize\ttfamily bool std\+::\+Lunar\+Profile\+::get\+Display\+Lunar\+Phase (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Lunar\+Phase\+: getter method for the display\+Lunar\+Phase bool. 
+
+Gets the objects display\+Lunar\+Phase attribute and returns it to the location it was called from \begin{DoxyReturn}{Returns}
+boolean of objects display\+Lunar\+Phase attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_ac42034b50b217e38402fc6928feee350}\label{classstd_1_1LunarProfile_ac42034b50b217e38402fc6928feee350}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!get\+Location@{get\+Location}}
+\index{get\+Location@{get\+Location}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{get\+Location()}{getLocation()}}
+{\footnotesize\ttfamily int std\+::\+Lunar\+Profile\+::get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Location\+: getter method for the location int. 
+
+Gets the objects location attribute and returns it to the location it was called from \begin{DoxyReturn}{Returns}
+int of objects location attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a936929ef556143114c33aa596903288b}\label{classstd_1_1LunarProfile_a936929ef556143114c33aa596903288b}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!get\+User\+Input@{get\+User\+Input}}
+\index{get\+User\+Input@{get\+User\+Input}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{get\+User\+Input()}{getUserInput()}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::get\+User\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+User\+Input\+: gets the user input to change parameters from default. 
+
+Gets the user input to allow for the user to turn on and off features of the lunar\+Profile Gui, based on user input setter methods are called to change display data. $<$ variables to check displayed data
+
+$<$ user input to determine what data is displayed
+
+$<$ if user inputted y then Lunar Phase will be shown \mbox{\Hypertarget{classstd_1_1LunarProfile_a28e6b5155bdac5aa9b180108e592c11c}\label{classstd_1_1LunarProfile_a28e6b5155bdac5aa9b180108e592c11c}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{Json\+Data()}{JsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::\+Lunar\+Profile\+::\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_af18f6f2798aa50625cec95c9ea2cd506}\label{classstd_1_1LunarProfile_af18f6f2798aa50625cec95c9ea2cd506}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}}
+\index{on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{on\+Rest\+Api\+Finished}{onRestApiFinished}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::on\+Rest\+Api\+Finished (\begin{DoxyParamCaption}\item[{Q\+Network\+Reply $\ast$}]{reply }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. 
+
+Creates a Q\+Json\+Document and reads in the information retrived by the rest\+Api\+Request function then calls the set\+Json\+Data function to save the information in and object and loads it into a Q\+Byte\+Array.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1LunarProfile_a5f709410eac35efeb72bfd164a903c9d}{rest\+Api\+Request()} 
+
+\hyperlink{classstd_1_1LunarProfile_a18899f16d1a29026f6771f5a44e68a58}{set\+Json\+Data()} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em Q\+Network\+Reply$\ast$} & network reply object used to get the api information \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a5f709410eac35efeb72bfd164a903c9d}\label{classstd_1_1LunarProfile_a5f709410eac35efeb72bfd164a903c9d}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!rest\+Api\+Request@{rest\+Api\+Request}}
+\index{rest\+Api\+Request@{rest\+Api\+Request}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{rest\+Api\+Request}{restApiRequest}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::rest\+Api\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+rest\+Api\+Request\+: creates the api call request. 
+
+Creates a Q\+Network request and calls the get\+Url function in order to get the proper url to be used then sets the header and url of the request and uses the manager to finish the request. \begin{DoxySeeAlso}{See also}
+get\+Url()
+\end{DoxySeeAlso}
+Creates a Q\+Network request and calls the \hyperlink{classstd_1_1LunarProfile_ac42034b50b217e38402fc6928feee350}{get\+Location()} function in order to get the proper location to be used then sets the header and url of the request and uses the manager to finish the request. \begin{DoxySeeAlso}{See also}
+get\+Url() 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a717befeec08194dbac72b1d4954a0749}\label{classstd_1_1LunarProfile_a717befeec08194dbac72b1d4954a0749}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!set\+Display\+Lunar\+Phase@{set\+Display\+Lunar\+Phase}}
+\index{set\+Display\+Lunar\+Phase@{set\+Display\+Lunar\+Phase}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Lunar\+Phase()}{setDisplayLunarPhase()}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::set\+Display\+Lunar\+Phase (\begin{DoxyParamCaption}\item[{bool}]{lunar\+Phase }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Lunar\+Phase\+: setter method for display\+Lunar\+Phase bool. 
+
+Sets the objects display\+Lunar\+Phase attribute if true the lunar\+Phase Gui will be shown if false it will not be 
+\begin{DoxyParams}{Parameters}
+{\em lunar\+Phase} & a boolean used to change the value of display\+Lunar\+Phase \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a18899f16d1a29026f6771f5a44e68a58}\label{classstd_1_1LunarProfile_a18899f16d1a29026f6771f5a44e68a58}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!set\+Json\+Data@{set\+Json\+Data}}
+\index{set\+Json\+Data@{set\+Json\+Data}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{set\+Json\+Data()}{setJsonData()}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::set\+Json\+Data (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Data\+: setter method for the my\+Json\+Data. 
+
+function call sets the Q\+Json\+Object my\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Object to set the object my\+Json\+Data to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a49474221146eb01f16c6f5a2ef955987}\label{classstd_1_1LunarProfile_a49474221146eb01f16c6f5a2ef955987}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!set\+Location@{set\+Location}}
+\index{set\+Location@{set\+Location}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{set\+Location()}{setLocation()}}
+{\footnotesize\ttfamily void std\+::\+Lunar\+Profile\+::set\+Location (\begin{DoxyParamCaption}\item[{int}]{loc }\end{DoxyParamCaption})}
+
+
+
+set\+Location\+: setter method for location int. 
+
+Sets the objects location attribute used in the api call 
+\begin{DoxyParams}{Parameters}
+{\em loc} & an int used to change the value of location \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_aca103ec32243d6e2abe5f0c68c66a063}\label{classstd_1_1LunarProfile_aca103ec32243d6e2abe5f0c68c66a063}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!manager@{manager}}
+\index{manager@{manager}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily Q\+Network\+Access\+Manager$\ast$ std\+::\+Lunar\+Profile\+::manager = new Q\+Network\+Access\+Manager(this)}
+
+
+
+manager creates a new object manager of type Q\+Network\+Manager. 
+
+manger is used to make and request the api calls used in populating my\+Json\+Data. \begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1LunarProfile_a98cd84372344d1cd58e8e83b378bebdb}{data\+Changed()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classstd_1_1LunarProfile_a56b8ae5f9dcdb3dbd53ea518fb44f3c4}\label{classstd_1_1LunarProfile_a56b8ae5f9dcdb3dbd53ea518fb44f3c4}} 
+\index{std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!std\+::\+Lunar\+Profile@{std\+::\+Lunar\+Profile}}
+\subsubsection{\texorpdfstring{Json\+Data}{JsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::\+Lunar\+Profile\+::\+Json\+Data\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+defines the Q\+\_\+object and its properties to be used in the qml
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+lunarprofile.\+h\item 
+lunarprofile.\+cpp\item 
+moc\+\_\+lunarprofile.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lunarPhaseGui.qml</file>
+        <file>lunarprofile.h</file>
+        <file>main.cpp</file>
+        <file>ItemPhase.qml</file>
+        <file>moonphaseicons.qrc</file>
+    </qresource>
+</RCC>

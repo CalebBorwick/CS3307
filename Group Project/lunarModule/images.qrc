@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LunarPhaseIcons/full.png</file>
+        <file>LunarPhaseIcons/new.png</file>
+        <file>LunarPhaseIcons/WanCres.png</file>
+        <file>LunarPhaseIcons/WanGib.png</file>
+        <file>LunarPhaseIcons/WanQuar.png</file>
+        <file>LunarPhaseIcons/WaxCres.png</file>
+        <file>LunarPhaseIcons/WaxGib.png</file>
+        <file>LunarPhaseIcons/WaxQuar.png</file>
+    </qresource>
+</RCC>
