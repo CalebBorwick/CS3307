@@ -1,0 +1,350 @@
+\hypertarget{classnewsprofile}{}\section{newsprofile Class Reference}
+\label{classnewsprofile}\index{newsprofile@{newsprofile}}
+
+
+The newsprofile class\+: class containing all functions nessisary for the newsprofile.  
+
+
+
+
+{\ttfamily \#include $<$newsprofile.\+h$>$}
+
+
+
+Inheritance diagram for newsprofile\+:
+% FIG 0
+
+
+Collaboration diagram for newsprofile\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnewsprofile_a7737b46a5faebd8011892a87043a9c3d}{rest\+Api\+Request} ()
+\begin{DoxyCompactList}\small\item\em rest\+Api\+Request\+: creates the api call request. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_aace55a1c870723462d4d937c1cc8744f}{on\+Rest\+Api\+Finished} (Q\+Network\+Reply $\ast$)
+\begin{DoxyCompactList}\small\item\em on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnewsprofile_a42cce2a0628306078dc33476be4159d0}{data\+Changed} (Q\+Json\+Object)
+\begin{DoxyCompactList}\small\item\em data\+Changed\+: singal for if the Q\+Json\+Object is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnewsprofile_ab3e2850b877a2985f87a5811659f851d}{newsprofile} (Q\+Object $\ast$parent=nullptr, bool \hyperlink{classnewsprofile_a73d8717c336436f4f653caf7f10cffea}{display\+News}=true, std\+::string c=\char`\"{}ca\char`\"{}, std\+::string ctg=\char`\"{}business\char`\"{})
+\begin{DoxyCompactList}\small\item\em newsprofile\+: constructor for newsprofile class creates an object of type newsprofile. \end{DoxyCompactList}\item 
+\hyperlink{classnewsprofile_a6f2d11bd1c8f257eeab52ed2cbf89d4a}{$\sim$newsprofile} ()
+\begin{DoxyCompactList}\small\item\em $\sim$newsprofile\+: destructor for newsprofile Class. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_a302b3b99247bf3950174c33e8248375c}{set\+Category} (std\+::string ctg)
+\begin{DoxyCompactList}\small\item\em set\+Category\+: setter method for category string. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_aea13ce5ce891ac0cf0965cb1cafb4a9b}{set\+Country} (std\+::string c)
+\begin{DoxyCompactList}\small\item\em set\+Country\+: setter method for country string. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_a1585c3de1a3f16857e2598886fd989b4}{setdisplay\+News} (bool d)
+\begin{DoxyCompactList}\small\item\em setdisplay\+News\+: setter method for display\+News bool. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classnewsprofile_a41fb2eda2f620ce3ae69404a7a54dc5a}{get\+Category} ()
+\begin{DoxyCompactList}\small\item\em get\+Category\+: getter method for the category string. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classnewsprofile_abba9dc6b1970ef25f0f74b51579dae6c}{get\+Country} ()
+\begin{DoxyCompactList}\small\item\em get\+Country\+: getter method for the country string. \end{DoxyCompactList}\item 
+bool \hyperlink{classnewsprofile_a12145de1fb148092d3ab13b221c5559b}{getdisplay\+News} ()
+\begin{DoxyCompactList}\small\item\em getdisplay\+News\+: getter method for the display\+News bool. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classnewsprofile_aaf7d376ec094a638c73c1623eabab20d}{Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_a2ca7da6292d9df6c4d5d6713930f0e39}{set\+Json\+Data} (const Q\+Json\+Object \&data)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Data\+: setter method for the my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classnewsprofile_ae410ce049e0c3ac3620d573335e99f96}{create\+News\+Gui} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em create\+News\+Gui\+: creates the pop up window that displays the News\+Profile Gui. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Network\+Access\+Manager $\ast$ \hyperlink{classnewsprofile_aa80d63cbcddac4bb6006aa5ce1c74be2}{manager} = new Q\+Network\+Access\+Manager(this)
+\begin{DoxyCompactList}\small\item\em manager creates a new object manager of type Q\+Network\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classnewsprofile_abbce547c1681eefd6d7af5f1f7c10a8f}{Json\+Data}
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classnewsprofile_a7b6b0ab6ef3b8217f18e7fec7303dba9}\label{classnewsprofile_a7b6b0ab6ef3b8217f18e7fec7303dba9}} 
+Q\+Json\+Object \hyperlink{classnewsprofile_a7b6b0ab6ef3b8217f18e7fec7303dba9}{m\+\_\+\+Json\+Data}
+\begin{DoxyCompactList}\small\item\em class attributes for objects of type Weather\+Profile \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classnewsprofile_a1551aca05a96fadd2f504fff7c1365c2}{category}
+\item 
+std\+::string \hyperlink{classnewsprofile_ab685cf85b66875c17c9c7bb57827d1aa}{country}
+\item 
+bool \hyperlink{classnewsprofile_a73d8717c336436f4f653caf7f10cffea}{display\+News}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The newsprofile class\+: class containing all functions nessisary for the newsprofile. 
+
+The newsprofile class contains the getters and setters for all parameters as well as a constructor and destructor for making and destorying objects of type weather\+Profile as well as the apicall and Qt\+Nework information for getting and requesting information from an api. The class also contains the function to create a gui to display the weather information recieved from the api call \begin{DoxyAuthor}{Author}
+Seyedehnastaran Ghafouriansahraei 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnewsprofile_ab3e2850b877a2985f87a5811659f851d}\label{classnewsprofile_ab3e2850b877a2985f87a5811659f851d}} 
+\index{newsprofile@{newsprofile}!newsprofile@{newsprofile}}
+\index{newsprofile@{newsprofile}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{newsprofile()}{newsprofile()}}
+{\footnotesize\ttfamily newsprofile\+::newsprofile (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr},  }\item[{bool}]{display\+News = {\ttfamily true},  }\item[{std\+::string}]{c = {\ttfamily \char`\"{}ca\char`\"{}},  }\item[{std\+::string}]{ctg = {\ttfamily \char`\"{}business\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+newsprofile\+: constructor for newsprofile class creates an object of type newsprofile. 
+
+Creates an object of type Weather\+Profile with the input parameters being set as the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+{\em display\+News} & A bool to decide if the news gui will be shown \\
+\hline
+{\em c} & A string representing the country code for news api \\
+\hline
+{\em ctg} & A string representing the news category for news api \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object of type newsprofile 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnewsprofile_a6f2d11bd1c8f257eeab52ed2cbf89d4a}\label{classnewsprofile_a6f2d11bd1c8f257eeab52ed2cbf89d4a}} 
+\index{newsprofile@{newsprofile}!````~newsprofile@{$\sim$newsprofile}}
+\index{````~newsprofile@{$\sim$newsprofile}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{$\sim$newsprofile()}{~newsprofile()}}
+{\footnotesize\ttfamily newsprofile\+::$\sim$newsprofile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+$\sim$newsprofile\+: destructor for newsprofile Class. 
+
+Destructor for the newsprofile class objects 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnewsprofile_ae410ce049e0c3ac3620d573335e99f96}\label{classnewsprofile_ae410ce049e0c3ac3620d573335e99f96}} 
+\index{newsprofile@{newsprofile}!create\+News\+Gui@{create\+News\+Gui}}
+\index{create\+News\+Gui@{create\+News\+Gui}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{create\+News\+Gui()}{createNewsGui()}}
+{\footnotesize\ttfamily void newsprofile\+::create\+News\+Gui (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+create\+News\+Gui\+: creates the pop up window that displays the News\+Profile Gui. 
+
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the newsprofile.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnewsprofile_a42cce2a0628306078dc33476be4159d0}\label{classnewsprofile_a42cce2a0628306078dc33476be4159d0}} 
+\index{newsprofile@{newsprofile}!data\+Changed@{data\+Changed}}
+\index{data\+Changed@{data\+Changed}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{data\+Changed}{dataChanged}}
+{\footnotesize\ttfamily void newsprofile\+::data\+Changed (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+data\+Changed\+: singal for if the Q\+Json\+Object is changed. 
+
+if the Q\+Json\+Object is changed send the singal to allow for the data to be loaded in again with the updated data. \mbox{\Hypertarget{classnewsprofile_a41fb2eda2f620ce3ae69404a7a54dc5a}\label{classnewsprofile_a41fb2eda2f620ce3ae69404a7a54dc5a}} 
+\index{newsprofile@{newsprofile}!get\+Category@{get\+Category}}
+\index{get\+Category@{get\+Category}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{get\+Category()}{getCategory()}}
+{\footnotesize\ttfamily std\+::string newsprofile\+::get\+Category (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Category\+: getter method for the category string. 
+
+Gets the objects category attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+string of objects category attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnewsprofile_abba9dc6b1970ef25f0f74b51579dae6c}\label{classnewsprofile_abba9dc6b1970ef25f0f74b51579dae6c}} 
+\index{newsprofile@{newsprofile}!get\+Country@{get\+Country}}
+\index{get\+Country@{get\+Country}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{get\+Country()}{getCountry()}}
+{\footnotesize\ttfamily std\+::string newsprofile\+::get\+Country (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Country\+: getter method for the country string. 
+
+Gets the objects country attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+string of objects country attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnewsprofile_a12145de1fb148092d3ab13b221c5559b}\label{classnewsprofile_a12145de1fb148092d3ab13b221c5559b}} 
+\index{newsprofile@{newsprofile}!getdisplay\+News@{getdisplay\+News}}
+\index{getdisplay\+News@{getdisplay\+News}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{getdisplay\+News()}{getdisplayNews()}}
+{\footnotesize\ttfamily bool newsprofile\+::getdisplay\+News (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getdisplay\+News\+: getter method for the display\+News bool. 
+
+Gets the objects display\+News attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+Boolean of objects display\+News attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnewsprofile_aaf7d376ec094a638c73c1623eabab20d}\label{classnewsprofile_aaf7d376ec094a638c73c1623eabab20d}} 
+\index{newsprofile@{newsprofile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{Json\+Data()}{JsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Object newsprofile\+::\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classnewsprofile_aace55a1c870723462d4d937c1cc8744f}\label{classnewsprofile_aace55a1c870723462d4d937c1cc8744f}} 
+\index{newsprofile@{newsprofile}!on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}}
+\index{on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{on\+Rest\+Api\+Finished}{onRestApiFinished}}
+{\footnotesize\ttfamily void newsprofile\+::on\+Rest\+Api\+Finished (\begin{DoxyParamCaption}\item[{Q\+Network\+Reply $\ast$}]{reply }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. 
+
+Creates a Q\+Json\+Document and reads in the information retrived by the rest\+Api\+Request function then calls the set\+Json\+Data function to save the information in and object and loads it into a Q\+Byte\+Array.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classnewsprofile_a7737b46a5faebd8011892a87043a9c3d}{rest\+Api\+Request()} 
+
+\hyperlink{classnewsprofile_a2ca7da6292d9df6c4d5d6713930f0e39}{set\+Json\+Data()} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classnewsprofile_a7737b46a5faebd8011892a87043a9c3d}\label{classnewsprofile_a7737b46a5faebd8011892a87043a9c3d}} 
+\index{newsprofile@{newsprofile}!rest\+Api\+Request@{rest\+Api\+Request}}
+\index{rest\+Api\+Request@{rest\+Api\+Request}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{rest\+Api\+Request}{restApiRequest}}
+{\footnotesize\ttfamily void newsprofile\+::rest\+Api\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+rest\+Api\+Request\+: creates the api call request. 
+
+Creates a Q\+Network request and then sets the header and url of the request and uses the manager to finish the request. \mbox{\Hypertarget{classnewsprofile_a302b3b99247bf3950174c33e8248375c}\label{classnewsprofile_a302b3b99247bf3950174c33e8248375c}} 
+\index{newsprofile@{newsprofile}!set\+Category@{set\+Category}}
+\index{set\+Category@{set\+Category}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{set\+Category()}{setCategory()}}
+{\footnotesize\ttfamily void newsprofile\+::set\+Category (\begin{DoxyParamCaption}\item[{std\+::string}]{ctg }\end{DoxyParamCaption})}
+
+
+
+set\+Category\+: setter method for category string. 
+
+Sets the object category to the parameter passed in to use in news A\+PI 
+\begin{DoxyParams}{Parameters}
+{\em ctg} & A string used to change the category \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnewsprofile_aea13ce5ce891ac0cf0965cb1cafb4a9b}\label{classnewsprofile_aea13ce5ce891ac0cf0965cb1cafb4a9b}} 
+\index{newsprofile@{newsprofile}!set\+Country@{set\+Country}}
+\index{set\+Country@{set\+Country}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{set\+Country()}{setCountry()}}
+{\footnotesize\ttfamily void newsprofile\+::set\+Country (\begin{DoxyParamCaption}\item[{std\+::string}]{c }\end{DoxyParamCaption})}
+
+
+
+set\+Country\+: setter method for country string. 
+
+Sets the object country to the parameter passed in to use in news A\+PI 
+\begin{DoxyParams}{Parameters}
+{\em c} & A string used to change the country \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnewsprofile_a1585c3de1a3f16857e2598886fd989b4}\label{classnewsprofile_a1585c3de1a3f16857e2598886fd989b4}} 
+\index{newsprofile@{newsprofile}!setdisplay\+News@{setdisplay\+News}}
+\index{setdisplay\+News@{setdisplay\+News}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{setdisplay\+News()}{setdisplayNews()}}
+{\footnotesize\ttfamily void newsprofile\+::setdisplay\+News (\begin{DoxyParamCaption}\item[{bool}]{d }\end{DoxyParamCaption})}
+
+
+
+setdisplay\+News\+: setter method for display\+News bool. 
+
+Sets the object display\+News to the parameter passed in to change weather or not the news data will be displayed 
+\begin{DoxyParams}{Parameters}
+{\em d} & A boolean used to change the display\+News \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnewsprofile_a2ca7da6292d9df6c4d5d6713930f0e39}\label{classnewsprofile_a2ca7da6292d9df6c4d5d6713930f0e39}} 
+\index{newsprofile@{newsprofile}!set\+Json\+Data@{set\+Json\+Data}}
+\index{set\+Json\+Data@{set\+Json\+Data}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{set\+Json\+Data()}{setJsonData()}}
+{\footnotesize\ttfamily void newsprofile\+::set\+Json\+Data (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Data\+: setter method for the my\+Json\+Data. 
+
+function call sets the Q\+Json\+Object my\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Object to set the object my\+Json\+Data to \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnewsprofile_a1551aca05a96fadd2f504fff7c1365c2}\label{classnewsprofile_a1551aca05a96fadd2f504fff7c1365c2}} 
+\index{newsprofile@{newsprofile}!category@{category}}
+\index{category@{category}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{category}{category}}
+{\footnotesize\ttfamily std\+::string newsprofile\+::category\hspace{0.3cm}{\ttfamily [private]}}
+
+string stores the string value of the news category to be used in api call \mbox{\Hypertarget{classnewsprofile_ab685cf85b66875c17c9c7bb57827d1aa}\label{classnewsprofile_ab685cf85b66875c17c9c7bb57827d1aa}} 
+\index{newsprofile@{newsprofile}!country@{country}}
+\index{country@{country}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{country}{country}}
+{\footnotesize\ttfamily std\+::string newsprofile\+::country\hspace{0.3cm}{\ttfamily [private]}}
+
+string stores the string value of the news country to be used in api call \mbox{\Hypertarget{classnewsprofile_a73d8717c336436f4f653caf7f10cffea}\label{classnewsprofile_a73d8717c336436f4f653caf7f10cffea}} 
+\index{newsprofile@{newsprofile}!display\+News@{display\+News}}
+\index{display\+News@{display\+News}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{display\+News}{displayNews}}
+{\footnotesize\ttfamily bool newsprofile\+::display\+News\hspace{0.3cm}{\ttfamily [private]}}
+
+bool stores the value of display\+News if true \mbox{\Hypertarget{classnewsprofile_aa80d63cbcddac4bb6006aa5ce1c74be2}\label{classnewsprofile_aa80d63cbcddac4bb6006aa5ce1c74be2}} 
+\index{newsprofile@{newsprofile}!manager@{manager}}
+\index{manager@{manager}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily Q\+Network\+Access\+Manager$\ast$ newsprofile\+::manager = new Q\+Network\+Access\+Manager(this)}
+
+
+
+manager creates a new object manager of type Q\+Network\+Manager. 
+
+manger is used to make and request the api calls used in populating my\+Json\+Data. \begin{DoxySeeAlso}{See also}
+\hyperlink{classnewsprofile_a42cce2a0628306078dc33476be4159d0}{data\+Changed()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classnewsprofile_abbce547c1681eefd6d7af5f1f7c10a8f}\label{classnewsprofile_abbce547c1681eefd6d7af5f1f7c10a8f}} 
+\index{newsprofile@{newsprofile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!newsprofile@{newsprofile}}
+\subsubsection{\texorpdfstring{Json\+Data}{JsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object newsprofile\+::\+Json\+Data\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+defines the Q\+\_\+object and its properties to be used in the qml
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+newsprofile.\+h\item 
+newsprofile.\+cpp\end{DoxyCompactItemize}
