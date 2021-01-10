@@ -1,0 +1,47 @@
+\hypertarget{classUi__searchBox}{}\section{Ui\+\_\+search\+Box Class Reference}
+\label{classUi__searchBox}\index{Ui\+\_\+search\+Box@{Ui\+\_\+search\+Box}}
+
+
+Inheritance diagram for Ui\+\_\+search\+Box\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a77ee16150472b6787886e69a813dc962}\label{classUi__searchBox_a77ee16150472b6787886e69a813dc962}} 
+void {\bfseries setup\+Ui} (Q\+Main\+Window $\ast$search\+Box)
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a2fe07ba782667e4ae1c2bbc094cb58a5}\label{classUi__searchBox_a2fe07ba782667e4ae1c2bbc094cb58a5}} 
+void {\bfseries retranslate\+Ui} (Q\+Main\+Window $\ast$search\+Box)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a8ce6964f580356c7e52a20b3542eb791}\label{classUi__searchBox_a8ce6964f580356c7e52a20b3542eb791}} 
+Q\+Widget $\ast$ {\bfseries central\+Widget}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a8b74e8121f98e4e333975332dbd45a06}\label{classUi__searchBox_a8b74e8121f98e4e333975332dbd45a06}} 
+Q\+Push\+Button $\ast$ {\bfseries search\+Button}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_ab5264200468f8f0441e38034b9ddb65d}\label{classUi__searchBox_ab5264200468f8f0441e38034b9ddb65d}} 
+Q\+List\+Widget $\ast$ {\bfseries list\+Widget}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a4db96a84d27c28205d459954550f0676}\label{classUi__searchBox_a4db96a84d27c28205d459954550f0676}} 
+Q\+Push\+Button $\ast$ {\bfseries confirm\+Button}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_ab37dd058c3bb5ca8b2442d6ca3e0302c}\label{classUi__searchBox_ab37dd058c3bb5ca8b2442d6ca3e0302c}} 
+Q\+Push\+Button $\ast$ {\bfseries cancel\+Button}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a00c062ea0d08f904d5cc32e1f11fea9b}\label{classUi__searchBox_a00c062ea0d08f904d5cc32e1f11fea9b}} 
+Q\+Line\+Edit $\ast$ {\bfseries line\+Edit}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_acbede2f8d037158fd79219123846aadd}\label{classUi__searchBox_acbede2f8d037158fd79219123846aadd}} 
+Q\+Tool\+Bar $\ast$ {\bfseries main\+Tool\+Bar}
+\item 
+\mbox{\Hypertarget{classUi__searchBox_a97d56852b2a5609a2ee52a30ae269c74}\label{classUi__searchBox_a97d56852b2a5609a2ee52a30ae269c74}} 
+Q\+Status\+Bar $\ast$ {\bfseries status\+Bar}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ui\+\_\+searchbox.\+h\end{DoxyCompactItemize}

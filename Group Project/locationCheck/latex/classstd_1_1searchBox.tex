@@ -1,0 +1,381 @@
+\hypertarget{classstd_1_1searchBox}{}\section{std\+:\+:search\+Box Class Reference}
+\label{classstd_1_1searchBox}\index{std\+::search\+Box@{std\+::search\+Box}}
+
+
+The \hyperlink{classstd_1_1searchBox}{search\+Box} class\+: class containing all functions necessary for the \hyperlink{classstd_1_1searchBox}{search\+Box} window.  
+
+
+
+
+{\ttfamily \#include $<$searchbox.\+h$>$}
+
+
+
+Inheritance diagram for std\+:\+:search\+Box\+:
+% FIG 0
+
+
+Collaboration diagram for std\+:\+:search\+Box\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1searchBox_ae809f6492d5745373277ec26009fa299}{set\+Api\+Finished} (Q\+Network\+Reply $\ast$)
+\begin{DoxyCompactList}\small\item\em set\+Api\+Finished\+: sets the Q\+Json\+Document from the request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstd_1_1searchBox_a8c14effb55526c2e064ada85d733bbb7}{search\+Box} (Q\+Widget $\ast$parent=nullptr, Q\+String \hyperlink{classstd_1_1searchBox_aea961f663dcd293eaa5ba38828f730e4}{query}=\char`\"{}\char`\"{}, Q\+String \hyperlink{classstd_1_1searchBox_a02d951e4331a6b3a598b59d997a6564e}{location}=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em defines the object and the properties to be used in the qml \end{DoxyCompactList}\item 
+\hyperlink{classstd_1_1searchBox_a8667c19faa2dd541f9cb47f83cfb4699}{$\sim$search\+Box} ()
+\begin{DoxyCompactList}\small\item\em $\sim$search\+Box\+: destructor for \hyperlink{classstd_1_1searchBox}{search\+Box} Class. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1searchBox_a8c40ff5ea326b88f6efeb31538b1c858}{set\+Location} (Q\+String \hyperlink{classstd_1_1searchBox_a02d951e4331a6b3a598b59d997a6564e}{location})
+\begin{DoxyCompactList}\small\item\em set\+Location\+: setter method for location string. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classstd_1_1searchBox_ac6065bf9e28a07ea2e69abd69ec01279}{get\+Location} ()
+\begin{DoxyCompactList}\small\item\em get\+Location\+: getter method for the location string. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classstd_1_1searchBox_a53faa5ee17f5190b1b81ac36b44e9ad2}{Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of result\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1searchBox_ae5f4b975f9d7958d1748de12777a9aca}{set\+Json\+Data} (const Q\+Json\+Object \&data)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Data\+: setter method for the result\+Json\+Data. \end{DoxyCompactList}\item 
+Q\+Json\+Document \hyperlink{classstd_1_1searchBox_ac370a8ef8abb0d3f2fb5330ef23b26ab}{get\+Doc\+Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em get\+Doc\+Json\+Data\+: getter function of Doc\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1searchBox_ae18823c4866780b727a9fbd626e9ec09}{set\+Doc\+Json\+Data} (Q\+Json\+Document data)
+\begin{DoxyCompactList}\small\item\em set\+Doc\+Json\+Data\+: setter method for the Json Data in document form. \end{DoxyCompactList}\item 
+Q\+Url \hyperlink{classstd_1_1searchBox_add3510cfd6c74e6978f413c271de176f}{get\+Url} (Q\+String text)
+\begin{DoxyCompactList}\small\item\em get\+Url\+: gets the Q\+Url for the Api call. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classstd_1_1searchBox_a4062270742fd88230f11182f34a854a2}{sprint\+Json} (const Q\+Json\+Value \&json\+Value)
+\begin{DoxyCompactList}\small\item\em sprint\+Json\+: uses the json document for the json parser \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \hyperlink{classstd_1_1searchBox_abaa8a631bd23679e319a7290c703edac}{json\+Parser} (T \&stream, const Q\+Json\+Value \&entry, int indent\+Level)
+\begin{DoxyCompactList}\small\item\em json\+Parser\+: parses json\+Value objects into Q\+Strings \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Network\+Access\+Manager $\ast$ \hyperlink{classstd_1_1searchBox_afd76f8227036d0d42122cd152bca52f2}{manager} = new Q\+Network\+Access\+Manager(this)
+\begin{DoxyCompactList}\small\item\em manager\+: creates a new object manager of type Q\+Network\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1searchBox_ab115b20ee0bfcf98095e3bb6ca9b8dca}{on\+\_\+search\+Button\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+search\+Button\+\_\+clicked\+: on click of search button sends A\+PI call \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1searchBox_aa8ed50f177d20e64e215b82839813a6f}{on\+\_\+line\+Edit\+\_\+return\+Pressed} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+line\+Edit\+\_\+return\+Pressed\+: on press of return key sends A\+PI call \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1searchBox_a72fb214318fd15e5203cb230cd1cf7b4}{on\+\_\+confirm\+Button\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+confirm\+Button\+\_\+clicked\+: sets the location key from user selection. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classstd_1_1searchBox_ab69249e3681992c9dfe252f3d571dab3}\label{classstd_1_1searchBox_ab69249e3681992c9dfe252f3d571dab3}} 
+void \hyperlink{classstd_1_1searchBox_ab69249e3681992c9dfe252f3d571dab3}{on\+\_\+cancel\+Button\+\_\+pressed} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+cancel\+Button\+\_\+pressed\+: destructor for \hyperlink{classstd_1_1searchBox}{search\+Box} class \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Document \hyperlink{classstd_1_1searchBox_a6a9fbaeaa1c7aa1404e4f2c3baf6fd84}{doc\+Json\+Data}
+\item 
+Q\+Json\+Object \hyperlink{classstd_1_1searchBox_a3c8548638d130a68df6b3ae74a1b1048}{result\+Json\+Data}
+\item 
+Q\+String \hyperlink{classstd_1_1searchBox_a02d951e4331a6b3a598b59d997a6564e}{location}
+\item 
+Q\+String \hyperlink{classstd_1_1searchBox_aea961f663dcd293eaa5ba38828f730e4}{query}
+\item 
+\mbox{\Hypertarget{classstd_1_1searchBox_a65cdb1f599848d927f12f6df78598b17}\label{classstd_1_1searchBox_a65cdb1f599848d927f12f6df78598b17}} 
+\hyperlink{classUi_1_1searchBox}{Ui\+::search\+Box} $\ast$ {\bfseries ui}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classstd_1_1searchBox}{search\+Box} class\+: class containing all functions necessary for the \hyperlink{classstd_1_1searchBox}{search\+Box} window. 
+
+The \hyperlink{classstd_1_1searchBox}{search\+Box} class contains the getters and setters for all parameters as well as a constructor and destructor for making and destorying objects of type \hyperlink{classstd_1_1searchBox}{search\+Box} as well as the A\+PI call and Qt\+Nework information for getting and requesting information from an A\+PI. The class also contains a parser to process the json file received from the A\+PI call. \begin{DoxyAuthor}{Author}
+Ethan Biswurm 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classstd_1_1searchBox_a8c14effb55526c2e064ada85d733bbb7}\label{classstd_1_1searchBox_a8c14effb55526c2e064ada85d733bbb7}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!search\+Box@{search\+Box}}
+\index{search\+Box@{search\+Box}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{search\+Box()}{searchBox()}}
+{\footnotesize\ttfamily std\+::search\+Box\+::search\+Box (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr},  }\item[{Q\+String}]{query = {\ttfamily \char`\"{}\char`\"{}},  }\item[{Q\+String}]{location = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+defines the object and the properties to be used in the qml 
+
+\hyperlink{classstd_1_1searchBox}{search\+Box}\+: constructor for \hyperlink{classstd_1_1searchBox}{search\+Box} class creates an object of type \hyperlink{classstd_1_1searchBox}{search\+Box}.
+
+\hyperlink{classstd_1_1searchBox}{search\+Box}\+: constructor for \hyperlink{classstd_1_1searchBox}{search\+Box} class creates an object of type \hyperlink{classstd_1_1searchBox}{search\+Box}.
+
+Creates an object of type \hyperlink{classstd_1_1searchBox}{search\+Box} with the input parameters being set as the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Q\+Widget parent to establish it \\
+\hline
+{\em query} & A string that stores the users search query \\
+\hline
+{\em location} & A string containing a key that represents the location of the user \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object of type \hyperlink{classstd_1_1searchBox}{search\+Box}
+\end{DoxyReturn}
+Creates an object of type \hyperlink{classstd_1_1searchBox}{search\+Box} with the input parameters being set as the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Q\+Widget parent to establish it \\
+\hline
+{\em query} & A string that stores the users search query \\
+\hline
+{\em location} & A string containing a key that represents the location of the user \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object of type \hyperlink{classstd_1_1searchBox}{search\+Box} 
+\end{DoxyReturn}
+$<$ attributes for the location class \mbox{\Hypertarget{classstd_1_1searchBox_a8667c19faa2dd541f9cb47f83cfb4699}\label{classstd_1_1searchBox_a8667c19faa2dd541f9cb47f83cfb4699}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!````~search\+Box@{$\sim$search\+Box}}
+\index{````~search\+Box@{$\sim$search\+Box}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{$\sim$search\+Box()}{~searchBox()}}
+{\footnotesize\ttfamily std\+::search\+Box\+::$\sim$search\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+$\sim$search\+Box\+: destructor for \hyperlink{classstd_1_1searchBox}{search\+Box} Class. 
+
+Destructor for the \hyperlink{classstd_1_1searchBox}{search\+Box} class objects 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classstd_1_1searchBox_ac370a8ef8abb0d3f2fb5330ef23b26ab}\label{classstd_1_1searchBox_ac370a8ef8abb0d3f2fb5330ef23b26ab}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!get\+Doc\+Json\+Data@{get\+Doc\+Json\+Data}}
+\index{get\+Doc\+Json\+Data@{get\+Doc\+Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{get\+Doc\+Json\+Data()}{getDocJsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Document std\+::search\+Box\+::get\+Doc\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Doc\+Json\+Data\+: getter function of Doc\+Json\+Data. 
+
+function call returns result\+Json\+Data in document form of type Q\+Json\+Document to where it was called from \begin{DoxyReturn}{Returns}
+returns result\+Json\+Data object in as document type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1searchBox_ac6065bf9e28a07ea2e69abd69ec01279}\label{classstd_1_1searchBox_ac6065bf9e28a07ea2e69abd69ec01279}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!get\+Location@{get\+Location}}
+\index{get\+Location@{get\+Location}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{get\+Location()}{getLocation()}}
+{\footnotesize\ttfamily Q\+String std\+::search\+Box\+::get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Location\+: getter method for the location string. 
+
+Gets the objects location attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+string of objects location attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1searchBox_add3510cfd6c74e6978f413c271de176f}\label{classstd_1_1searchBox_add3510cfd6c74e6978f413c271de176f}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!get\+Url@{get\+Url}}
+\index{get\+Url@{get\+Url}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{get\+Url()}{getUrl()}}
+{\footnotesize\ttfamily Q\+Url std\+::search\+Box\+::get\+Url (\begin{DoxyParamCaption}\item[{Q\+String}]{text }\end{DoxyParamCaption})}
+
+
+
+get\+Url\+: gets the Q\+Url for the Api call. 
+
+Gets the Q\+Url based on the users search query. 
+\begin{DoxyParams}{Parameters}
+{\em text} & users search query to send to A\+PI. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Url object with the search results 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1searchBox_a53faa5ee17f5190b1b81ac36b44e9ad2}\label{classstd_1_1searchBox_a53faa5ee17f5190b1b81ac36b44e9ad2}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{Json\+Data()}{JsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::search\+Box\+::\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Json\+Data\+: getter function of result\+Json\+Data. 
+
+function call returns result\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns result\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1searchBox_abaa8a631bd23679e319a7290c703edac}\label{classstd_1_1searchBox_abaa8a631bd23679e319a7290c703edac}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!json\+Parser@{json\+Parser}}
+\index{json\+Parser@{json\+Parser}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{json\+Parser()}{jsonParser()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void std\+::search\+Box\+::json\+Parser (\begin{DoxyParamCaption}\item[{T \&}]{stream,  }\item[{const Q\+Json\+Value \&}]{entry,  }\item[{int}]{indent\+Level }\end{DoxyParamCaption})}
+
+
+
+json\+Parser\+: parses json\+Value objects into Q\+Strings 
+
+Parses the json\+Value merging both items of object and string type into one string. 
+\begin{DoxyParams}{Parameters}
+{\em stream} & the character stream that the parser appends characters to \\
+\hline
+{\em entry} & the json\+Value received from the sprint\+Json method. \\
+\hline
+{\em indent\+Level} & the current level of indentation for an iteration. Used for recursion. \\
+\hline
+\end{DoxyParams}
+$<$ establishing the various types of punctuation and symbols in the json file $>$
+
+$<$ cases to allow for parser to switch between data types $>$ \mbox{\Hypertarget{classstd_1_1searchBox_a72fb214318fd15e5203cb230cd1cf7b4}\label{classstd_1_1searchBox_a72fb214318fd15e5203cb230cd1cf7b4}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!on\+\_\+confirm\+Button\+\_\+clicked@{on\+\_\+confirm\+Button\+\_\+clicked}}
+\index{on\+\_\+confirm\+Button\+\_\+clicked@{on\+\_\+confirm\+Button\+\_\+clicked}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{on\+\_\+confirm\+Button\+\_\+clicked}{on\_confirmButton\_clicked}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::on\+\_\+confirm\+Button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+confirm\+Button\+\_\+clicked\+: sets the location key from user selection. 
+
+Allows user to confirm selection for location choice. $<$ variables to allow for the location value to be changed
+
+$<$ search through full string for city key \mbox{\Hypertarget{classstd_1_1searchBox_aa8ed50f177d20e64e215b82839813a6f}\label{classstd_1_1searchBox_aa8ed50f177d20e64e215b82839813a6f}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!on\+\_\+line\+Edit\+\_\+return\+Pressed@{on\+\_\+line\+Edit\+\_\+return\+Pressed}}
+\index{on\+\_\+line\+Edit\+\_\+return\+Pressed@{on\+\_\+line\+Edit\+\_\+return\+Pressed}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{on\+\_\+line\+Edit\+\_\+return\+Pressed}{on\_lineEdit\_returnPressed}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::on\+\_\+line\+Edit\+\_\+return\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+line\+Edit\+\_\+return\+Pressed\+: on press of return key sends A\+PI call 
+
+Using the users input search query, sends completed A\+PI call to retrieve resutls. \mbox{\Hypertarget{classstd_1_1searchBox_ab115b20ee0bfcf98095e3bb6ca9b8dca}\label{classstd_1_1searchBox_ab115b20ee0bfcf98095e3bb6ca9b8dca}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!on\+\_\+search\+Button\+\_\+clicked@{on\+\_\+search\+Button\+\_\+clicked}}
+\index{on\+\_\+search\+Button\+\_\+clicked@{on\+\_\+search\+Button\+\_\+clicked}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{on\+\_\+search\+Button\+\_\+clicked}{on\_searchButton\_clicked}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::on\+\_\+search\+Button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+search\+Button\+\_\+clicked\+: on click of search button sends A\+PI call 
+
+Using the users input search query, sends completed A\+PI call to retrieve resutls. \mbox{\Hypertarget{classstd_1_1searchBox_ae809f6492d5745373277ec26009fa299}\label{classstd_1_1searchBox_ae809f6492d5745373277ec26009fa299}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!set\+Api\+Finished@{set\+Api\+Finished}}
+\index{set\+Api\+Finished@{set\+Api\+Finished}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{set\+Api\+Finished}{setApiFinished}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::set\+Api\+Finished (\begin{DoxyParamCaption}\item[{Q\+Network\+Reply $\ast$}]{reply }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+set\+Api\+Finished\+: sets the Q\+Json\+Document from the request. 
+
+Creates a Q\+Json\+Document and reads in the information retrieved by the A\+PI call then reads from document and appends results to list in window.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1searchBox_ae18823c4866780b727a9fbd626e9ec09}{set\+Doc\+Json\+Data()} 
+
+\hyperlink{classstd_1_1searchBox_ae5f4b975f9d7958d1748de12777a9aca}{set\+Json\+Data()} 
+\end{DoxySeeAlso}
+$<$ beginning of loop to iterate through each json entry, each iteration having its own values for the same variables
+
+$<$ search through full string for city, country, and region names \mbox{\Hypertarget{classstd_1_1searchBox_ae18823c4866780b727a9fbd626e9ec09}\label{classstd_1_1searchBox_ae18823c4866780b727a9fbd626e9ec09}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!set\+Doc\+Json\+Data@{set\+Doc\+Json\+Data}}
+\index{set\+Doc\+Json\+Data@{set\+Doc\+Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{set\+Doc\+Json\+Data()}{setDocJsonData()}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::set\+Doc\+Json\+Data (\begin{DoxyParamCaption}\item[{Q\+Json\+Document}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Doc\+Json\+Data\+: setter method for the Json Data in document form. 
+
+function call sets the Q\+Json\+Document from result\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Document to set the document of the Json Data \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1searchBox_ae5f4b975f9d7958d1748de12777a9aca}\label{classstd_1_1searchBox_ae5f4b975f9d7958d1748de12777a9aca}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!set\+Json\+Data@{set\+Json\+Data}}
+\index{set\+Json\+Data@{set\+Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{set\+Json\+Data()}{setJsonData()}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::set\+Json\+Data (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Data\+: setter method for the result\+Json\+Data. 
+
+function call sets the Q\+Json\+Object result\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Object to set the object result\+Json\+Data to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1searchBox_a8c40ff5ea326b88f6efeb31538b1c858}\label{classstd_1_1searchBox_a8c40ff5ea326b88f6efeb31538b1c858}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!set\+Location@{set\+Location}}
+\index{set\+Location@{set\+Location}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{set\+Location()}{setLocation()}}
+{\footnotesize\ttfamily void std\+::search\+Box\+::set\+Location (\begin{DoxyParamCaption}\item[{Q\+String}]{location }\end{DoxyParamCaption})}
+
+
+
+set\+Location\+: setter method for location string. 
+
+Sets the object location to the parameter passed in to change the users location 
+\begin{DoxyParams}{Parameters}
+{\em display\+Weather} & A string used to change the location \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1searchBox_a4062270742fd88230f11182f34a854a2}\label{classstd_1_1searchBox_a4062270742fd88230f11182f34a854a2}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!sprint\+Json@{sprint\+Json}}
+\index{sprint\+Json@{sprint\+Json}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{sprint\+Json()}{sprintJson()}}
+{\footnotesize\ttfamily Q\+String std\+::search\+Box\+::sprint\+Json (\begin{DoxyParamCaption}\item[{const Q\+Json\+Value \&}]{json\+Value }\end{DoxyParamCaption})}
+
+
+
+sprint\+Json\+: uses the json document for the json parser 
+
+Formats the json document to feed to the json parser to allow for it to be read as a string. 
+\begin{DoxyParams}{Parameters}
+{\em json\+Value} & the json\+Value from the A\+PI\textquotesingle{}s returned json file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Full Q\+String of the json\+Value it received. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classstd_1_1searchBox_a6a9fbaeaa1c7aa1404e4f2c3baf6fd84}\label{classstd_1_1searchBox_a6a9fbaeaa1c7aa1404e4f2c3baf6fd84}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!doc\+Json\+Data@{doc\+Json\+Data}}
+\index{doc\+Json\+Data@{doc\+Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{doc\+Json\+Data}{docJsonData}}
+{\footnotesize\ttfamily Q\+Json\+Document std\+::search\+Box\+::doc\+Json\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+Q\+Json\+Document stores the document of the api call in doc\+Json\+Data \mbox{\Hypertarget{classstd_1_1searchBox_a02d951e4331a6b3a598b59d997a6564e}\label{classstd_1_1searchBox_a02d951e4331a6b3a598b59d997a6564e}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!location@{location}}
+\index{location@{location}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{location}{location}}
+{\footnotesize\ttfamily Q\+String std\+::search\+Box\+::location\hspace{0.3cm}{\ttfamily [private]}}
+
+String stores the key value of the users city to be used in api call \mbox{\Hypertarget{classstd_1_1searchBox_afd76f8227036d0d42122cd152bca52f2}\label{classstd_1_1searchBox_afd76f8227036d0d42122cd152bca52f2}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!manager@{manager}}
+\index{manager@{manager}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily Q\+Network\+Access\+Manager$\ast$ std\+::search\+Box\+::manager = new Q\+Network\+Access\+Manager(this)}
+
+
+
+manager\+: creates a new object manager of type Q\+Network\+Manager. 
+
+manager is used to make and request the api calls used in populating result\+Json\+Data. \begin{DoxySeeAlso}{See also}
+data\+Changed() 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classstd_1_1searchBox_aea961f663dcd293eaa5ba38828f730e4}\label{classstd_1_1searchBox_aea961f663dcd293eaa5ba38828f730e4}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!query@{query}}
+\index{query@{query}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{query}{query}}
+{\footnotesize\ttfamily Q\+String std\+::search\+Box\+::query\hspace{0.3cm}{\ttfamily [private]}}
+
+String that stores the search query \mbox{\Hypertarget{classstd_1_1searchBox_a3c8548638d130a68df6b3ae74a1b1048}\label{classstd_1_1searchBox_a3c8548638d130a68df6b3ae74a1b1048}} 
+\index{std\+::search\+Box@{std\+::search\+Box}!result\+Json\+Data@{result\+Json\+Data}}
+\index{result\+Json\+Data@{result\+Json\+Data}!std\+::search\+Box@{std\+::search\+Box}}
+\subsubsection{\texorpdfstring{result\+Json\+Data}{resultJsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::search\+Box\+::result\+Json\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+Q\+Json\+Object stores the value of the api call in result\+Json\+Data 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+searchbox.\+h\item 
+searchbox.\+cpp\end{DoxyCompactItemize}
