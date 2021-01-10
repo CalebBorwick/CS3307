@@ -1,0 +1,247 @@
+\hypertarget{classgreetings}{}\section{greetings Class Reference}
+\label{classgreetings}\index{greetings@{greetings}}
+
+
+The greetings class\+: class containing all functions nessisary for the greetings.  
+
+
+
+
+{\ttfamily \#include $<$greetings.\+h$>$}
+
+
+
+Inheritance diagram for greetings\+:
+% FIG 0
+
+
+Collaboration diagram for greetings\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classgreetings_a7d286ec9180eced56e4c22cc4454c7d0}{rest\+Api\+Request} ()
+\begin{DoxyCompactList}\small\item\em rest\+Api\+Request\+: creates the api call request. \end{DoxyCompactList}\item 
+void \hyperlink{classgreetings_ae6cb2ddacf677abc2321503a150b8a68}{on\+Rest\+Api\+Finished} (Q\+Network\+Reply $\ast$)
+\begin{DoxyCompactList}\small\item\em on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classgreetings_ad68a8a8ffff2bfba6216c83020ac8322}{data\+Changed} (Q\+Json\+Object)
+\begin{DoxyCompactList}\small\item\em data\+Changed\+: singal for if the Q\+Json\+Object is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgreetings_aef948066f414bc727432b991737ca150}{greetings} (Q\+Object $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Weather\+Profile\+: constructor for greetings class creates an object of type greetings. \end{DoxyCompactList}\item 
+\hyperlink{classgreetings_af3b7a759f81496ea873b8e8256fa389f}{$\sim$greetings} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\+Weather\+Profile\+: destructor for Weather\+Profile Class. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classgreetings_ac57585cb1b028df9b49f28a076b9bd07}{Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classgreetings_a93cc00c6f8df2cc064597c2824af744a}{set\+Json\+Data} (const Q\+Json\+Object \&data)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Data\+: setter method for the my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classgreetings_ab0e1f5b270ab68f2ad875b4b37f6c820}{create\+Greetings\+Gui} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em create\+Greetings\+Gui\+: creates the pop up window that displays the Greetings Gui. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Network\+Access\+Manager $\ast$ \hyperlink{classgreetings_a32ed4e6b771ae7d0f9c85adf3af4f3a1}{manager} = new Q\+Network\+Access\+Manager(this)
+\begin{DoxyCompactList}\small\item\em manager creates a new object manager of type Q\+Network\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classgreetings_afc287bb0274d6d6d5d8ec2b9a3a2aff6}{Json\+Data}
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classgreetings_a7a34fccd482cf94d12b6c3f3128cac07}{m\+\_\+\+Json\+Data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The greetings class\+: class containing all functions nessisary for the greetings. 
+
+The greetings class contains a constructor and destructor for making and destorying objects of type greetings as well as the apicall and Qt\+Nework information for getting and requesting information from an api. The class also contains the function to create a gui to display the greetings and motivational quote information recieved from the api call \begin{DoxyAuthor}{Author}
+Seyedehnastaran Ghafouriansahraei 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgreetings_aef948066f414bc727432b991737ca150}\label{classgreetings_aef948066f414bc727432b991737ca150}} 
+\index{greetings@{greetings}!greetings@{greetings}}
+\index{greetings@{greetings}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{greetings()}{greetings()}}
+{\footnotesize\ttfamily greetings\+::greetings (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Weather\+Profile\+: constructor for greetings class creates an object of type greetings. 
+
+greetings\+: constructor for greetings class creates an object of type greetings.
+
+Creates an object of type greetings \begin{DoxyReturn}{Returns}
+object of type greetings
+\end{DoxyReturn}
+Creates an object of type greetings 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object of type greetings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgreetings_af3b7a759f81496ea873b8e8256fa389f}\label{classgreetings_af3b7a759f81496ea873b8e8256fa389f}} 
+\index{greetings@{greetings}!````~greetings@{$\sim$greetings}}
+\index{````~greetings@{$\sim$greetings}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{$\sim$greetings()}{~greetings()}}
+{\footnotesize\ttfamily greetings\+::$\sim$greetings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+$\sim$\+Weather\+Profile\+: destructor for Weather\+Profile Class. 
+
+$\sim$greetings\+: destructor for greetings Class.
+
+Destructor for the weather\+Profile class objects
+
+Destructor for the greetings class objects 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classgreetings_ab0e1f5b270ab68f2ad875b4b37f6c820}\label{classgreetings_ab0e1f5b270ab68f2ad875b4b37f6c820}} 
+\index{greetings@{greetings}!create\+Greetings\+Gui@{create\+Greetings\+Gui}}
+\index{create\+Greetings\+Gui@{create\+Greetings\+Gui}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{create\+Greetings\+Gui()}{createGreetingsGui()}}
+{\footnotesize\ttfamily void greetings\+::create\+Greetings\+Gui (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+create\+Greetings\+Gui\+: creates the pop up window that displays the Greetings Gui. 
+
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the weath\+Gui.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application\\
+\hline
+\end{DoxyParams}
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the greetings.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgreetings_ad68a8a8ffff2bfba6216c83020ac8322}\label{classgreetings_ad68a8a8ffff2bfba6216c83020ac8322}} 
+\index{greetings@{greetings}!data\+Changed@{data\+Changed}}
+\index{data\+Changed@{data\+Changed}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{data\+Changed}{dataChanged}}
+{\footnotesize\ttfamily void greetings\+::data\+Changed (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+data\+Changed\+: singal for if the Q\+Json\+Object is changed. 
+
+if the Q\+Json\+Object is changed send the singal to allow for the data to be loaded in again with the updated data. \mbox{\Hypertarget{classgreetings_ac57585cb1b028df9b49f28a076b9bd07}\label{classgreetings_ac57585cb1b028df9b49f28a076b9bd07}} 
+\index{greetings@{greetings}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{Json\+Data()}{JsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Object greetings\+::\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgreetings_ae6cb2ddacf677abc2321503a150b8a68}\label{classgreetings_ae6cb2ddacf677abc2321503a150b8a68}} 
+\index{greetings@{greetings}!on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}}
+\index{on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{on\+Rest\+Api\+Finished}{onRestApiFinished}}
+{\footnotesize\ttfamily void greetings\+::on\+Rest\+Api\+Finished (\begin{DoxyParamCaption}\item[{Q\+Network\+Reply $\ast$}]{reply }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. 
+
+Creates a Q\+Json\+Document and reads in the information retrived by the rest\+Api\+Request function then calls the set\+Json\+Data function to save the information in and object and loads it into a Q\+Byte\+Array.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classgreetings_a7d286ec9180eced56e4c22cc4454c7d0}{rest\+Api\+Request()} 
+
+\hyperlink{classgreetings_a93cc00c6f8df2cc064597c2824af744a}{set\+Json\+Data()} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classgreetings_a7d286ec9180eced56e4c22cc4454c7d0}\label{classgreetings_a7d286ec9180eced56e4c22cc4454c7d0}} 
+\index{greetings@{greetings}!rest\+Api\+Request@{rest\+Api\+Request}}
+\index{rest\+Api\+Request@{rest\+Api\+Request}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{rest\+Api\+Request}{restApiRequest}}
+{\footnotesize\ttfamily void greetings\+::rest\+Api\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+rest\+Api\+Request\+: creates the api call request. 
+
+Creates a Q\+Network request and then sets the header and url of the request and uses the manager to finish the request.
+
+Creates a Q\+Network request using a given url for motivational quotes A\+PI then sets the header and url of the request and uses the manager to finish the request. \mbox{\Hypertarget{classgreetings_a93cc00c6f8df2cc064597c2824af744a}\label{classgreetings_a93cc00c6f8df2cc064597c2824af744a}} 
+\index{greetings@{greetings}!set\+Json\+Data@{set\+Json\+Data}}
+\index{set\+Json\+Data@{set\+Json\+Data}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{set\+Json\+Data()}{setJsonData()}}
+{\footnotesize\ttfamily void greetings\+::set\+Json\+Data (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Data\+: setter method for the my\+Json\+Data. 
+
+function call sets the Q\+Json\+Object my\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Object to set the object my\+Json\+Data to \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classgreetings_a7a34fccd482cf94d12b6c3f3128cac07}\label{classgreetings_a7a34fccd482cf94d12b6c3f3128cac07}} 
+\index{greetings@{greetings}!m\+\_\+\+Json\+Data@{m\+\_\+\+Json\+Data}}
+\index{m\+\_\+\+Json\+Data@{m\+\_\+\+Json\+Data}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Json\+Data}{m\_JsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object greetings\+::m\+\_\+\+Json\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+Q\+Json\+Object stores the value of the api call in m\+\_\+\+Json\+Data \mbox{\Hypertarget{classgreetings_a32ed4e6b771ae7d0f9c85adf3af4f3a1}\label{classgreetings_a32ed4e6b771ae7d0f9c85adf3af4f3a1}} 
+\index{greetings@{greetings}!manager@{manager}}
+\index{manager@{manager}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily Q\+Network\+Access\+Manager$\ast$ greetings\+::manager = new Q\+Network\+Access\+Manager(this)}
+
+
+
+manager creates a new object manager of type Q\+Network\+Manager. 
+
+manger is used to make and request the api calls used in populating my\+Json\+Data. \begin{DoxySeeAlso}{See also}
+\hyperlink{classgreetings_ad68a8a8ffff2bfba6216c83020ac8322}{data\+Changed()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classgreetings_afc287bb0274d6d6d5d8ec2b9a3a2aff6}\label{classgreetings_afc287bb0274d6d6d5d8ec2b9a3a2aff6}} 
+\index{greetings@{greetings}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!greetings@{greetings}}
+\subsubsection{\texorpdfstring{Json\+Data}{JsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object greetings\+::\+Json\+Data\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+defines the Q\+\_\+object and its properties to be used in the qml
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+greetings.\+h\item 
+greetings.\+cpp\end{DoxyCompactItemize}
