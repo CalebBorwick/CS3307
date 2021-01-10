@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>clockGui.qml</file>
+    </qresource>
+</RCC>

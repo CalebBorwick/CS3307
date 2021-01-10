@@ -1,0 +1,344 @@
+\hypertarget{classstd_1_1clockProfile}{}\section{std\+:\+:clock\+Profile Class Reference}
+\label{classstd_1_1clockProfile}\index{std\+::clock\+Profile@{std\+::clock\+Profile}}
+
+
+The \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class\+: class contains all functions necessary for the \hyperlink{classstd_1_1clockProfile}{clock\+Profile}.  
+
+
+
+
+{\ttfamily \#include $<$clockprofile.\+h$>$}
+
+
+
+Inheritance diagram for std\+:\+:clock\+Profile\+:
+% FIG 0
+
+
+Collaboration diagram for std\+:\+:clock\+Profile\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstd_1_1clockProfile_a6227b1367e8f4390f907cc773776440f}{clock\+Profile} (Q\+Object $\ast$parent=nullptr, bool \hyperlink{classstd_1_1clockProfile_ada356d5abdd661e8d49d8a1cb1917bac}{display\+Clock}=true, bool \hyperlink{classstd_1_1clockProfile_a438727fde8bfcfec773b5719b13e7fa6}{display\+Am\+Pm}=true, bool \hyperlink{classstd_1_1clockProfile_a71d7da42c0525f8db3b349233967d68a}{display24\+Hour}=false, bool \hyperlink{classstd_1_1clockProfile_a384637e551292b8e3b107c9ed0352657}{display\+Seconds}=false, bool \hyperlink{classstd_1_1clockProfile_a734d221eef9c7afb78f8a92b17086b96}{display\+Date}=true)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classstd_1_1clockProfile}{clock\+Profile}\+: constructor for \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class creating an object of type \hyperlink{classstd_1_1clockProfile}{clock\+Profile}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classstd_1_1clockProfile_a96a5ef8dfeaa06823c1944914e9d17e4}\label{classstd_1_1clockProfile_a96a5ef8dfeaa06823c1944914e9d17e4}} 
+\hyperlink{classstd_1_1clockProfile_a96a5ef8dfeaa06823c1944914e9d17e4}{$\sim$clock\+Profile} ()
+\begin{DoxyCompactList}\small\item\em $\sim$clock\+Profile\+: destructor for the \hyperlink{classstd_1_1clockProfile}{clock\+Profile} \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1clockProfile_afb75b98ed330fce3102231b8897a6463}{get\+Display\+Clock} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Clock\+: getter function of display\+Clock bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a372ef384b84f39f3ba2eafe001af2ca3}{set\+Display\+Clock} (bool \hyperlink{classstd_1_1clockProfile_ada356d5abdd661e8d49d8a1cb1917bac}{display\+Clock})
+\begin{DoxyCompactList}\small\item\em set\+Display\+Clock\+: setter method for the display\+Clock bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1clockProfile_a10e8148593e0454be867875324cd17a2}{get\+Display\+Am\+Pm} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Am\+Pm\+: getter function of display\+Clock bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a0ee2f84a274c7a58a39e7a54b4a4d7b3}{set\+Display\+Am\+Pm} (bool \hyperlink{classstd_1_1clockProfile_a438727fde8bfcfec773b5719b13e7fa6}{display\+Am\+Pm})
+\begin{DoxyCompactList}\small\item\em set\+Display\+Am\+Pm\+: setter method for the display\+Am\+Pm bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1clockProfile_a2c4bd81d6c2bddae8737f937b5cadb73}{get\+Display24\+Hour} ()
+\begin{DoxyCompactList}\small\item\em get\+Display24\+Hour\+: getter function of display24\+Hour bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a9977a07ed8e2b583f3be23dbff3eb316}{set\+Display24\+Hour} (bool \hyperlink{classstd_1_1clockProfile_a71d7da42c0525f8db3b349233967d68a}{display24\+Hour})
+\begin{DoxyCompactList}\small\item\em set\+Display24\+Hour\+: setter method for the display24\+Hour bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1clockProfile_a05a0e3db67348e36615ad3eb7e721af4}{get\+Display\+Seconds} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Seconds\+: getter method for the display\+Seconds bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a3630b6ca4b2164f3fbe2ddfa5964d766}{set\+Display\+Seconds} (bool \hyperlink{classstd_1_1clockProfile_a384637e551292b8e3b107c9ed0352657}{display\+Seconds})
+\begin{DoxyCompactList}\small\item\em set\+Display\+Seconds\+: setter method for the display\+Seconds bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1clockProfile_a4a744fb9ab8efbb864a7c16e2b708b1b}{get\+Display\+Date} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Date\+: getter method for the display\+Date bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a7a087e6a97655f07c866cac2f2538d9a}{set\+Display\+Date} (bool \hyperlink{classstd_1_1clockProfile_a734d221eef9c7afb78f8a92b17086b96}{display\+Date})
+\begin{DoxyCompactList}\small\item\em set\+Display\+Date\+: setter method for the display\+Date bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a96d439cb8abed2db9a41aeb1972cfeb0}{create\+Clock\+Gui} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em create\+Clock\+Gui\+: creates the pop up window that displays the weather\+Profile Gui. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1clockProfile_a42de46fecaca016989d2798f14b95887}{get\+User\+Input} ()
+\begin{DoxyCompactList}\small\item\em get\+User\+Input\+: gets the user input to change parameters from default. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classstd_1_1clockProfile_a438727fde8bfcfec773b5719b13e7fa6}{display\+Am\+Pm}
+\item 
+bool \hyperlink{classstd_1_1clockProfile_a71d7da42c0525f8db3b349233967d68a}{display24\+Hour}
+\item 
+bool \hyperlink{classstd_1_1clockProfile_a384637e551292b8e3b107c9ed0352657}{display\+Seconds}
+\item 
+bool \hyperlink{classstd_1_1clockProfile_a734d221eef9c7afb78f8a92b17086b96}{display\+Date}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classstd_1_1clockProfile_ada356d5abdd661e8d49d8a1cb1917bac}{display\+Clock}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class\+: class contains all functions necessary for the \hyperlink{classstd_1_1clockProfile}{clock\+Profile}. 
+
+The \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class conbtains the getters and setters for all parameters as welll as a constructor and destructor for make and destroying objects of type \hyperlink{classstd_1_1clockProfile}{clock\+Profile}. As well it holds the functions to create and diosplay a gui with the all information as well as the ability to change the deafults using \hyperlink{classstd_1_1clockProfile_a42de46fecaca016989d2798f14b95887}{get\+User\+Input()} \begin{DoxyAuthor}{Author}
+Ian Borwick 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a6227b1367e8f4390f907cc773776440f}\label{classstd_1_1clockProfile_a6227b1367e8f4390f907cc773776440f}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!clock\+Profile@{clock\+Profile}}
+\index{clock\+Profile@{clock\+Profile}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{clock\+Profile()}{clockProfile()}}
+{\footnotesize\ttfamily std\+::clock\+Profile\+::clock\+Profile (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr},  }\item[{bool}]{display\+Clock = {\ttfamily true},  }\item[{bool}]{display\+Am\+Pm = {\ttfamily true},  }\item[{bool}]{display24\+Hour = {\ttfamily false},  }\item[{bool}]{display\+Seconds = {\ttfamily false},  }\item[{bool}]{display\+Date = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\hyperlink{classstd_1_1clockProfile}{clock\+Profile}\+: constructor for \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class creating an object of type \hyperlink{classstd_1_1clockProfile}{clock\+Profile}. 
+
+public Class attributes
+
+Creates an object of type \hyperlink{classstd_1_1clockProfile}{clock\+Profile} with the input parameters being asigned to the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+{\em display\+Clock} & bool to decide if the gui will be shown \\
+\hline
+{\em display\+Am\+Pm} & bool to decide if Am\+Pm will be shown \\
+\hline
+{\em display24\+Hour} & bool to decide if clock will be in 24 hr format \\
+\hline
+{\em display\+Seconds} & bool to decide if seconds will be shown \\
+\hline
+{\em display\+Date} & bool to decide if date will be shown\\
+\hline
+\end{DoxyParams}
+Creates an object of type \hyperlink{classstd_1_1clockProfile}{clock\+Profile} with the input parameters being asigned to the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+{\em display\+Clock} & bool to decide if the gui will be shown \\
+\hline
+{\em display\+Am\+Pm} & bool to decide if Am\+Pm will be shown \\
+\hline
+{\em display24\+Hour} & bool to decide if clock will be in 24 hr format \\
+\hline
+{\em display\+Seconds} & bool to decide if seconds will be shown \\
+\hline
+{\em display\+Date} & bool to decide if date will be shown \\
+\hline
+\end{DoxyParams}
+$<$ attributes for the \hyperlink{classstd_1_1clockProfile}{clock\+Profile} class 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a96d439cb8abed2db9a41aeb1972cfeb0}\label{classstd_1_1clockProfile_a96d439cb8abed2db9a41aeb1972cfeb0}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!create\+Clock\+Gui@{create\+Clock\+Gui}}
+\index{create\+Clock\+Gui@{create\+Clock\+Gui}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{create\+Clock\+Gui()}{createClockGui()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::create\+Clock\+Gui (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+create\+Clock\+Gui\+: creates the pop up window that displays the weather\+Profile Gui. 
+
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the weath\+Gui.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application \\
+\hline
+\end{DoxyParams}
+$<$ creates Q\+Qui\+App
+
+$<$ cretes the content bridge to exposed c++ to the qml
+
+$<$ defines the qml file where the javascript styling is
+
+$<$ starts the gui \mbox{\Hypertarget{classstd_1_1clockProfile_a2c4bd81d6c2bddae8737f937b5cadb73}\label{classstd_1_1clockProfile_a2c4bd81d6c2bddae8737f937b5cadb73}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+Display24\+Hour@{get\+Display24\+Hour}}
+\index{get\+Display24\+Hour@{get\+Display24\+Hour}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display24\+Hour()}{getDisplay24Hour()}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::get\+Display24\+Hour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display24\+Hour\+: getter function of display24\+Hour bool. 
+
+function call returns display\+Am\+Pm of type bool to where it was called from \begin{DoxyReturn}{Returns}
+returns display24\+Hour bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a10e8148593e0454be867875324cd17a2}\label{classstd_1_1clockProfile_a10e8148593e0454be867875324cd17a2}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+Display\+Am\+Pm@{get\+Display\+Am\+Pm}}
+\index{get\+Display\+Am\+Pm@{get\+Display\+Am\+Pm}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Am\+Pm()}{getDisplayAmPm()}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::get\+Display\+Am\+Pm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Am\+Pm\+: getter function of display\+Clock bool. 
+
+function call returns display\+Am\+Pm of type bool to where it was called from \begin{DoxyReturn}{Returns}
+returns display\+Am\+Pm bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1clockProfile_afb75b98ed330fce3102231b8897a6463}\label{classstd_1_1clockProfile_afb75b98ed330fce3102231b8897a6463}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+Display\+Clock@{get\+Display\+Clock}}
+\index{get\+Display\+Clock@{get\+Display\+Clock}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Clock()}{getDisplayClock()}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::get\+Display\+Clock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Clock\+: getter function of display\+Clock bool. 
+
+function call returns display\+Clock of type bool to where it was called from \begin{DoxyReturn}{Returns}
+returns display\+Clock bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a4a744fb9ab8efbb864a7c16e2b708b1b}\label{classstd_1_1clockProfile_a4a744fb9ab8efbb864a7c16e2b708b1b}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+Display\+Date@{get\+Display\+Date}}
+\index{get\+Display\+Date@{get\+Display\+Date}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Date()}{getDisplayDate()}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::get\+Display\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Date\+: getter method for the display\+Date bool. 
+
+function call returns display\+Date of type bool to where it was called from 
+\begin{DoxyParams}{Parameters}
+{\em display\+Date} & bool to set the display\+Date attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a05a0e3db67348e36615ad3eb7e721af4}\label{classstd_1_1clockProfile_a05a0e3db67348e36615ad3eb7e721af4}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+Display\+Seconds@{get\+Display\+Seconds}}
+\index{get\+Display\+Seconds@{get\+Display\+Seconds}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Seconds()}{getDisplaySeconds()}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::get\+Display\+Seconds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Seconds\+: getter method for the display\+Seconds bool. 
+
+function call returns display\+Seconds of type bool to where it was called from 
+\begin{DoxyParams}{Parameters}
+{\em display\+Seconds} & bool to set the display\+Seconds attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a42de46fecaca016989d2798f14b95887}\label{classstd_1_1clockProfile_a42de46fecaca016989d2798f14b95887}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!get\+User\+Input@{get\+User\+Input}}
+\index{get\+User\+Input@{get\+User\+Input}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{get\+User\+Input()}{getUserInput()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::get\+User\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+User\+Input\+: gets the user input to change parameters from default. 
+
+Gets the user input to allow for the user to turn on and off features of the \hyperlink{classstd_1_1clockProfile}{clock\+Profile} Gui, based on user input setter methods are called to change display data. $<$ user input to see what will be displayed \mbox{\Hypertarget{classstd_1_1clockProfile_a9977a07ed8e2b583f3be23dbff3eb316}\label{classstd_1_1clockProfile_a9977a07ed8e2b583f3be23dbff3eb316}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!set\+Display24\+Hour@{set\+Display24\+Hour}}
+\index{set\+Display24\+Hour@{set\+Display24\+Hour}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display24\+Hour()}{setDisplay24Hour()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::set\+Display24\+Hour (\begin{DoxyParamCaption}\item[{bool}]{display24\+Hour }\end{DoxyParamCaption})}
+
+
+
+set\+Display24\+Hour\+: setter method for the display24\+Hour bool. 
+
+function call sets the display24\+Hour to the input parameter if true the 24 hour in the gui will be shown and Am\+Pm will not if false it will not be shown and Am\+Pm will be 
+\begin{DoxyParams}{Parameters}
+{\em display24\+Hour} & bool to set the display24\+Hour attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a0ee2f84a274c7a58a39e7a54b4a4d7b3}\label{classstd_1_1clockProfile_a0ee2f84a274c7a58a39e7a54b4a4d7b3}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!set\+Display\+Am\+Pm@{set\+Display\+Am\+Pm}}
+\index{set\+Display\+Am\+Pm@{set\+Display\+Am\+Pm}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Am\+Pm()}{setDisplayAmPm()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::set\+Display\+Am\+Pm (\begin{DoxyParamCaption}\item[{bool}]{display\+Am\+Pm }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Am\+Pm\+: setter method for the display\+Am\+Pm bool. 
+
+function call sets the display\+Am\+Pm to the input parameter if true the Am Pm in the gui will be shown and 24 hour will not if false it will not be shown and 24 hour will be 
+\begin{DoxyParams}{Parameters}
+{\em display\+Am\+Pm} & bool to set the display\+Am\+Pm attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a372ef384b84f39f3ba2eafe001af2ca3}\label{classstd_1_1clockProfile_a372ef384b84f39f3ba2eafe001af2ca3}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!set\+Display\+Clock@{set\+Display\+Clock}}
+\index{set\+Display\+Clock@{set\+Display\+Clock}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Clock()}{setDisplayClock()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::set\+Display\+Clock (\begin{DoxyParamCaption}\item[{bool}]{display\+Clock }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Clock\+: setter method for the display\+Clock bool. 
+
+function call sets the display\+Clock to the input parameter if true the clock gui will be shown if false it will not be shown 
+\begin{DoxyParams}{Parameters}
+{\em display\+Clock} & bool to set the display\+Clock attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a7a087e6a97655f07c866cac2f2538d9a}\label{classstd_1_1clockProfile_a7a087e6a97655f07c866cac2f2538d9a}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!set\+Display\+Date@{set\+Display\+Date}}
+\index{set\+Display\+Date@{set\+Display\+Date}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Date()}{setDisplayDate()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::set\+Display\+Date (\begin{DoxyParamCaption}\item[{bool}]{display\+Date }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Date\+: setter method for the display\+Date bool. 
+
+function call will set the display\+Date attribute to the input parameter if true date will be shown in the gui if false they will not 
+\begin{DoxyParams}{Parameters}
+{\em display\+Date} & bool to set the display\+Date attribute to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a3630b6ca4b2164f3fbe2ddfa5964d766}\label{classstd_1_1clockProfile_a3630b6ca4b2164f3fbe2ddfa5964d766}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!set\+Display\+Seconds@{set\+Display\+Seconds}}
+\index{set\+Display\+Seconds@{set\+Display\+Seconds}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Seconds()}{setDisplaySeconds()}}
+{\footnotesize\ttfamily void std\+::clock\+Profile\+::set\+Display\+Seconds (\begin{DoxyParamCaption}\item[{bool}]{display\+Seconds }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Seconds\+: setter method for the display\+Seconds bool. 
+
+function call will set the display\+Seconds attribute to the input parameter if true seconds will be shown in the gui if false they will not 
+\begin{DoxyParams}{Parameters}
+{\em display\+Seconds} & bool to set the display\+Seconds attribute to \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classstd_1_1clockProfile_ada356d5abdd661e8d49d8a1cb1917bac}\label{classstd_1_1clockProfile_ada356d5abdd661e8d49d8a1cb1917bac}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!display\+Clock@{display\+Clock}}
+\index{display\+Clock@{display\+Clock}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{display\+Clock}{displayClock}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::display\+Clock\hspace{0.3cm}{\ttfamily [private]}}
+
+private Class attributes bool stores the value for display\+Clock to see if it will be displayed 
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classstd_1_1clockProfile_a71d7da42c0525f8db3b349233967d68a}\label{classstd_1_1clockProfile_a71d7da42c0525f8db3b349233967d68a}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!display24\+Hour@{display24\+Hour}}
+\index{display24\+Hour@{display24\+Hour}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{display24\+Hour}{display24Hour}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::display24\+Hour\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value for display24\+Hour to see if it will be displayed \mbox{\Hypertarget{classstd_1_1clockProfile_a438727fde8bfcfec773b5719b13e7fa6}\label{classstd_1_1clockProfile_a438727fde8bfcfec773b5719b13e7fa6}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!display\+Am\+Pm@{display\+Am\+Pm}}
+\index{display\+Am\+Pm@{display\+Am\+Pm}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{display\+Am\+Pm}{displayAmPm}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::display\+Am\+Pm\hspace{0.3cm}{\ttfamily [read]}}
+
+defines the Qobject and its properties to be used in the qml
+
+bool stores the value for display\+Am\+Pm to see if it will be displayed \mbox{\Hypertarget{classstd_1_1clockProfile_a734d221eef9c7afb78f8a92b17086b96}\label{classstd_1_1clockProfile_a734d221eef9c7afb78f8a92b17086b96}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!display\+Date@{display\+Date}}
+\index{display\+Date@{display\+Date}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{display\+Date}{displayDate}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::display\+Date\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value for display\+Date to see if it will be displayed \mbox{\Hypertarget{classstd_1_1clockProfile_a384637e551292b8e3b107c9ed0352657}\label{classstd_1_1clockProfile_a384637e551292b8e3b107c9ed0352657}} 
+\index{std\+::clock\+Profile@{std\+::clock\+Profile}!display\+Seconds@{display\+Seconds}}
+\index{display\+Seconds@{display\+Seconds}!std\+::clock\+Profile@{std\+::clock\+Profile}}
+\subsubsection{\texorpdfstring{display\+Seconds}{displaySeconds}}
+{\footnotesize\ttfamily bool std\+::clock\+Profile\+::display\+Seconds\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value for display\+Seconds to see if it will be displayed 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+clockprofile.\+h\item 
+clockprofile.\+cpp\end{DoxyCompactItemize}
