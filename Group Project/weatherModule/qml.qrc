@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>weatherGui.qml</file>
+        <file>ItemWeather.qml</file>
+        <file>weatherModuleImages/1.png</file>
+        <file>weatherModuleImages/2.png</file>
+        <file>weatherModuleImages/3.png</file>
+        <file>weatherModuleImages/4.png</file>
+        <file>weatherModuleImages/5.png</file>
+        <file>weatherModuleImages/6.png</file>
+        <file>weatherModuleImages/7.png</file>
+        <file>weatherModuleImages/8.png</file>
+        <file>weatherModuleImages/11.png</file>
+        <file>weatherModuleImages/12.png</file>
+        <file>weatherModuleImages/13.png</file>
+        <file>weatherModuleImages/15.png</file>
+        <file>weatherModuleImages/16.png</file>
+        <file>weatherModuleImages/17.png</file>
+        <file>weatherModuleImages/18.png</file>
+        <file>weatherModuleImages/19.png</file>
+        <file>weatherModuleImages/20.png</file>
+        <file>weatherModuleImages/21.png</file>
+        <file>weatherModuleImages/22.png</file>
+        <file>weatherModuleImages/23.png</file>
+        <file>weatherModuleImages/24.png</file>
+        <file>weatherModuleImages/25.png</file>
+        <file>weatherModuleImages/26.png</file>
+        <file>weatherModuleImages/29.png</file>
+        <file>weatherModuleImages/30.png</file>
+        <file>weatherModuleImages/31.png</file>
+        <file>weatherModuleImages/32.png</file>
+        <file>weatherModuleImages/33.png</file>
+        <file>weatherModuleImages/34.png</file>
+        <file>weatherModuleImages/35.png</file>
+        <file>weatherModuleImages/36.png</file>
+        <file>weatherModuleImages/37.png</file>
+        <file>weatherModuleImages/38.png</file>
+        <file>weatherModuleImages/39.png</file>
+        <file>weatherModuleImages/40.png</file>
+        <file>weatherModuleImages/41.png</file>
+        <file>weatherModuleImages/42.png</file>
+        <file>weatherModuleImages/43.png</file>
+        <file>weatherModuleImages/44.png</file>
+        <file>weatherModuleImages/none.png</file>
+    </qresource>
+</RCC>
