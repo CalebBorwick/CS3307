@@ -1,0 +1,493 @@
+\hypertarget{classstd_1_1WeatherProfile}{}\section{std\+:\+:Weather\+Profile Class Reference}
+\label{classstd_1_1WeatherProfile}\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+
+
+The \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} class\+: class containing all functions nessisary for the weather\+Profile.  
+
+
+
+
+{\ttfamily \#include $<$weatherprofile.\+h$>$}
+
+
+
+Inheritance diagram for std\+:\+:Weather\+Profile\+:
+% FIG 0
+
+
+Collaboration diagram for std\+:\+:Weather\+Profile\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1WeatherProfile_ae28b711abd178e48511b51b7450f433e}{rest\+Api\+Request} ()
+\begin{DoxyCompactList}\small\item\em rest\+Api\+Request\+: creates the api call request. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_adfaa93a9f3e112957e59f51b245d8a08}{on\+Rest\+Api\+Finished} (Q\+Network\+Reply $\ast$)
+\begin{DoxyCompactList}\small\item\em on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstd_1_1WeatherProfile_aeb52ea5de93919d86850317b0f74ed63}{data\+Changed} (Q\+Json\+Object)
+\begin{DoxyCompactList}\small\item\em data\+Changed\+: singal for if the Q\+Json\+Object is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstd_1_1WeatherProfile_ad818c7ad0b75a69b342da6f7c674f573}{Weather\+Profile} (Q\+Object $\ast$parent=nullptr, bool \hyperlink{classstd_1_1WeatherProfile_a0dd7030c23696ecaf76413ebaabb4645}{display\+Weather}=true, int \hyperlink{classstd_1_1WeatherProfile_a3697df85fcaa2ce90eb0977e15198674}{location}=55489, bool \hyperlink{classstd_1_1WeatherProfile_a25ca50e0d8a3d4fa258db8e26083e8e1}{units}=true, bool \hyperlink{classstd_1_1WeatherProfile_a17f3618b6762d5056c38e4df66e1bf1e}{details}=true, bool \hyperlink{classstd_1_1WeatherProfile_ac150fcba688d439c2abbe6820d385837}{week}=true)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile}\+: constructor for \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} class creates an object of type \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile}. \end{DoxyCompactList}\item 
+\hyperlink{classstd_1_1WeatherProfile_ab873b51e8ae1d83c474c444363ba1aa3}{$\sim$\+Weather\+Profile} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\+Weather\+Profile\+: destructor for \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} Class. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classstd_1_1WeatherProfile_aa3d92771a060afcc690d70fdc79fe3a6}{Json\+Data} () const
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_ad444f5fd9133e627cac077649701ecd9}{set\+Json\+Data} (const Q\+Json\+Object \&data)
+\begin{DoxyCompactList}\small\item\em set\+Json\+Data\+: setter method for the my\+Json\+Data. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_a66f900727e8d6ffa0883650ab5af5896}{set\+Display\+Weather} (bool \hyperlink{classstd_1_1WeatherProfile_a0dd7030c23696ecaf76413ebaabb4645}{display\+Weather})
+\begin{DoxyCompactList}\small\item\em set\+Display\+Weather\+: setter method for display\+Weather bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_aee4044d006b2ccf6e355e892f77b2541}{get\+Display\+Weather} ()
+\begin{DoxyCompactList}\small\item\em get\+Display\+Weather\+: getter method for the display\+Weather bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_a4bf85a91cd9114d9d554fb938f590be7}{set\+Location} (int \hyperlink{classstd_1_1WeatherProfile_a3697df85fcaa2ce90eb0977e15198674}{location})
+\begin{DoxyCompactList}\small\item\em get\+Location\+: setter method for location int. \end{DoxyCompactList}\item 
+int \hyperlink{classstd_1_1WeatherProfile_a07ff37444a49134cde1936f5894c2ce4}{get\+Location} ()
+\begin{DoxyCompactList}\small\item\em get\+Location\+: getter method for the location int. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_abe7b328e7ed4cd3b920f2af1732bd123}{get\+Units} ()
+\begin{DoxyCompactList}\small\item\em get\+Units\+: getter method for the units bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_acaaf7209803cef37835a4102fc5298d2}{set\+Units} (bool unit)
+\begin{DoxyCompactList}\small\item\em set\+Units\+: setter method for location int. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_ad174bc1ef9e70d365813666947fbd773}{get\+Details} ()
+\begin{DoxyCompactList}\small\item\em get\+Details\+: getter method for the detilas bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_a40ead1d473c875b5290f9a245a4bbc45}{set\+Details} (bool \hyperlink{classstd_1_1WeatherProfile_a17f3618b6762d5056c38e4df66e1bf1e}{details})
+\begin{DoxyCompactList}\small\item\em set\+Details\+: setter method for the details bool. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_a1b22d001626932dfab69aef759f7d3f1}{get\+Week} ()
+\begin{DoxyCompactList}\small\item\em get\+Week\+: getter method for the the week bool. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_a0789caeeaa53cc62d69d7bc00c927191}{set\+Week} (bool \hyperlink{classstd_1_1WeatherProfile_ac150fcba688d439c2abbe6820d385837}{week})
+\begin{DoxyCompactList}\small\item\em set\+Week\+: setter method for week bool. \end{DoxyCompactList}\item 
+Q\+Url \hyperlink{classstd_1_1WeatherProfile_ac6a37dc41962de12f4fb3542872ae676}{get\+Url} ()
+\begin{DoxyCompactList}\small\item\em get\+Url\+: gets the Q\+Url for the Api call. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_a42cbf5feef89faad6c246a73d929794f}{create\+Weather\+Gui} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em create\+Weather\+Gui\+: creates the pop up window that displays the weather\+Profile Gui. \end{DoxyCompactList}\item 
+void \hyperlink{classstd_1_1WeatherProfile_ae24b804c8c7a396ead522ffea03e9eb4}{get\+User\+Input} ()
+\begin{DoxyCompactList}\small\item\em get\+User\+Input\+: gets the user input to change parameters from default. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Network\+Access\+Manager $\ast$ \hyperlink{classstd_1_1WeatherProfile_acfad2d74172239aacca63f28937d4da2}{manager} = new Q\+Network\+Access\+Manager(this)
+\begin{DoxyCompactList}\small\item\em manager creates a new object manager of type Q\+Network\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classstd_1_1WeatherProfile_a3c41afc87f5e952779cb6e9a68b6b941}{Json\+Data}
+\begin{DoxyCompactList}\small\item\em Json\+Data\+: getter function of my\+Json\+Data. \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_a25ca50e0d8a3d4fa258db8e26083e8e1}{units}
+\item 
+bool \hyperlink{classstd_1_1WeatherProfile_ac150fcba688d439c2abbe6820d385837}{week}
+\item 
+bool \hyperlink{classstd_1_1WeatherProfile_a17f3618b6762d5056c38e4df66e1bf1e}{details}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Json\+Object \hyperlink{classstd_1_1WeatherProfile_a6c0d57cb39083e505e393ba1473ed67b}{my\+Json\+Data}
+\begin{DoxyCompactList}\small\item\em class attributes for objects of type \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} \end{DoxyCompactList}\item 
+bool \hyperlink{classstd_1_1WeatherProfile_a0dd7030c23696ecaf76413ebaabb4645}{display\+Weather}
+\item 
+int \hyperlink{classstd_1_1WeatherProfile_a3697df85fcaa2ce90eb0977e15198674}{location}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} class\+: class containing all functions nessisary for the weather\+Profile. 
+
+The weather\+Profile class contains the getters and setters for all parameters as well as a constructor and destructor for making and destorying objects of type weather\+Profile as well as the apicall and Qt\+Nework information for getting and requesting information from an api. The class also contains the function to create a gui to display the weather information recieved from the api call \begin{DoxyAuthor}{Author}
+Ian Borwick 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_ad818c7ad0b75a69b342da6f7c674f573}\label{classstd_1_1WeatherProfile_ad818c7ad0b75a69b342da6f7c674f573}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!Weather\+Profile@{Weather\+Profile}}
+\index{Weather\+Profile@{Weather\+Profile}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{Weather\+Profile()}{WeatherProfile()}}
+{\footnotesize\ttfamily std\+::\+Weather\+Profile\+::\+Weather\+Profile (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr},  }\item[{bool}]{displayweather = {\ttfamily true},  }\item[{int}]{location = {\ttfamily 55489},  }\item[{bool}]{units = {\ttfamily true},  }\item[{bool}]{details = {\ttfamily true},  }\item[{bool}]{week = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile}\+: constructor for \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} class creates an object of type \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile}. 
+
+Creates an object of type \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} with the input parameters being set as the class attributes 
+\begin{DoxyParams}{Parameters}
+{\em parent} & A nullptr for the Qobject parent to establish it \\
+\hline
+{\em display\+Weather} & A bool to decide if the weather gui will be shown \\
+\hline
+{\em location} & A int representing the location of the user \\
+\hline
+{\em units} & A bool to decide if the units will be farenheit or celsius \\
+\hline
+{\em details} & A bool to decide if additional details for the weather will be shown \\
+\hline
+{\em week} & A bool to decide if the forecast will be 1 day or 5 day \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object of type weather\+Profile 
+\end{DoxyReturn}
+$<$ attributes for the weather class
+
+$<$ creates the connection for the Api pull requests \mbox{\Hypertarget{classstd_1_1WeatherProfile_ab873b51e8ae1d83c474c444363ba1aa3}\label{classstd_1_1WeatherProfile_ab873b51e8ae1d83c474c444363ba1aa3}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!````~Weather\+Profile@{$\sim$\+Weather\+Profile}}
+\index{````~Weather\+Profile@{$\sim$\+Weather\+Profile}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{$\sim$\+Weather\+Profile()}{~WeatherProfile()}}
+{\footnotesize\ttfamily std\+::\+Weather\+Profile\+::$\sim$\+Weather\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+$\sim$\+Weather\+Profile\+: destructor for \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} Class. 
+
+Destructor for the weather\+Profile class objects 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a42cbf5feef89faad6c246a73d929794f}\label{classstd_1_1WeatherProfile_a42cbf5feef89faad6c246a73d929794f}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!create\+Weather\+Gui@{create\+Weather\+Gui}}
+\index{create\+Weather\+Gui@{create\+Weather\+Gui}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{create\+Weather\+Gui()}{createWeatherGui()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::create\+Weather\+Gui (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+create\+Weather\+Gui\+: creates the pop up window that displays the weather\+Profile Gui. 
+
+Creates a Q\+Core\+Application, Q\+Gui\+Application from the parameterss, a Q\+Qml\+Application\+Engine that allows for variables to be passed into the qml files to be used to check if elements are to be displayed, a Q\+Qml\+Context and sets it to the appbridge so that c++ classes are exposed to the qml, creates the connection to the weath\+Gui.\+qml to load in the Gui window. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & int arg used to create Q\+Gui\+Application \\
+\hline
+{\em argv} & char arg used to create Q\+Gui\+Application \\
+\hline
+\end{DoxyParams}
+$<$ only displays if get\+Display weather is true
+
+$<$ creates Q\+Qui\+App
+
+$<$ cretes the content bridge to exposed c++ to the qml
+
+$<$ defines the qml file where the javascript styling is
+
+$<$ starts the gui \mbox{\Hypertarget{classstd_1_1WeatherProfile_aeb52ea5de93919d86850317b0f74ed63}\label{classstd_1_1WeatherProfile_aeb52ea5de93919d86850317b0f74ed63}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!data\+Changed@{data\+Changed}}
+\index{data\+Changed@{data\+Changed}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{data\+Changed}{dataChanged}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::data\+Changed (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{\+\_\+t1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+data\+Changed\+: singal for if the Q\+Json\+Object is changed. 
+
+if the Q\+Json\+Object is changed send the singal to allow for the data to be loaded in again with the updated data. \mbox{\Hypertarget{classstd_1_1WeatherProfile_ad174bc1ef9e70d365813666947fbd773}\label{classstd_1_1WeatherProfile_ad174bc1ef9e70d365813666947fbd773}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Details@{get\+Details}}
+\index{get\+Details@{get\+Details}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Details()}{getDetails()}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Details\+: getter method for the detilas bool. 
+
+Gets the objects details attribute and returns it to the point at which the method was called. \begin{DoxyReturn}{Returns}
+bool of object details 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_aee4044d006b2ccf6e355e892f77b2541}\label{classstd_1_1WeatherProfile_aee4044d006b2ccf6e355e892f77b2541}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Display\+Weather@{get\+Display\+Weather}}
+\index{get\+Display\+Weather@{get\+Display\+Weather}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Display\+Weather()}{getDisplayWeather()}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::get\+Display\+Weather (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Display\+Weather\+: getter method for the display\+Weather bool. 
+
+Gets the objects display\+Weather attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+Boolean of objects display\+Weather attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a07ff37444a49134cde1936f5894c2ce4}\label{classstd_1_1WeatherProfile_a07ff37444a49134cde1936f5894c2ce4}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Location@{get\+Location}}
+\index{get\+Location@{get\+Location}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Location()}{getLocation()}}
+{\footnotesize\ttfamily int std\+::\+Weather\+Profile\+::get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Location\+: getter method for the location int. 
+
+Gets the objects location attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+int of objects location attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_abe7b328e7ed4cd3b920f2af1732bd123}\label{classstd_1_1WeatherProfile_abe7b328e7ed4cd3b920f2af1732bd123}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Units@{get\+Units}}
+\index{get\+Units@{get\+Units}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Units()}{getUnits()}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::get\+Units (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Units\+: getter method for the units bool. 
+
+Gets the objects units attribute and returns it to the point at which the method was called \begin{DoxyReturn}{Returns}
+bool of objects units attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_ac6a37dc41962de12f4fb3542872ae676}\label{classstd_1_1WeatherProfile_ac6a37dc41962de12f4fb3542872ae676}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Url@{get\+Url}}
+\index{get\+Url@{get\+Url}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Url()}{getUrl()}}
+{\footnotesize\ttfamily Q\+Url std\+::\+Weather\+Profile\+::get\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Url\+: gets the Q\+Url for the Api call. 
+
+Gets the Q\+Url based on the if the units are to be celsius or ferenheit. \begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1WeatherProfile_abe7b328e7ed4cd3b920f2af1732bd123}{get\+Units()} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+Q\+Url object with the proper metric for units 
+\end{DoxyReturn}
+$<$ if celcius
+
+$<$ if ferenheit \mbox{\Hypertarget{classstd_1_1WeatherProfile_ae24b804c8c7a396ead522ffea03e9eb4}\label{classstd_1_1WeatherProfile_ae24b804c8c7a396ead522ffea03e9eb4}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+User\+Input@{get\+User\+Input}}
+\index{get\+User\+Input@{get\+User\+Input}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+User\+Input()}{getUserInput()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::get\+User\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+User\+Input\+: gets the user input to change parameters from default. 
+
+Gets the user input to allow for the user to turn on and off features of the weather\+Profile Gui, based on user input setter methods are called to change display data. $<$ variables to check displayed data
+
+$<$ user input to determine what data is displayed
+
+$<$ if user inputted n for display\+Weather then weather will not be shown \mbox{\Hypertarget{classstd_1_1WeatherProfile_a1b22d001626932dfab69aef759f7d3f1}\label{classstd_1_1WeatherProfile_a1b22d001626932dfab69aef759f7d3f1}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!get\+Week@{get\+Week}}
+\index{get\+Week@{get\+Week}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{get\+Week()}{getWeek()}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::get\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Week\+: getter method for the the week bool. 
+
+Gets the objects week attribute and returns it to the location it was called from. \begin{DoxyReturn}{Returns}
+bool of week attribute 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_aa3d92771a060afcc690d70fdc79fe3a6}\label{classstd_1_1WeatherProfile_aa3d92771a060afcc690d70fdc79fe3a6}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{Json\+Data()}{JsonData()}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::\+Weather\+Profile\+::\+Json\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_adfaa93a9f3e112957e59f51b245d8a08}\label{classstd_1_1WeatherProfile_adfaa93a9f3e112957e59f51b245d8a08}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}}
+\index{on\+Rest\+Api\+Finished@{on\+Rest\+Api\+Finished}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{on\+Rest\+Api\+Finished}{onRestApiFinished}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::on\+Rest\+Api\+Finished (\begin{DoxyParamCaption}\item[{Q\+Network\+Reply $\ast$}]{reply }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+on\+Rest\+Api\+Finished\+: sets the Q\+Json\+Document from the request. 
+
+Creates a Q\+Json\+Document and reads in the information retrived by the rest\+Api\+Request function then calls the set\+Json\+Data function to save the information in and object and loads it into a Q\+Byte\+Array.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1WeatherProfile_ae28b711abd178e48511b51b7450f433e}{rest\+Api\+Request()} 
+
+\hyperlink{classstd_1_1WeatherProfile_ad444f5fd9133e627cac077649701ecd9}{set\+Json\+Data()} 
+\end{DoxySeeAlso}
+$<$ q\+Debug() $<$$<$ Q\+Latin1\+String(array); Used to display the Json data \mbox{\Hypertarget{classstd_1_1WeatherProfile_ae28b711abd178e48511b51b7450f433e}\label{classstd_1_1WeatherProfile_ae28b711abd178e48511b51b7450f433e}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!rest\+Api\+Request@{rest\+Api\+Request}}
+\index{rest\+Api\+Request@{rest\+Api\+Request}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{rest\+Api\+Request}{restApiRequest}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::rest\+Api\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+rest\+Api\+Request\+: creates the api call request. 
+
+Creates a Q\+Network request and calls the get\+Url function in order to get the proper url to be used then sets the header and url of the request and uses the manager to finish the request. \begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1WeatherProfile_ac6a37dc41962de12f4fb3542872ae676}{get\+Url()} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a40ead1d473c875b5290f9a245a4bbc45}\label{classstd_1_1WeatherProfile_a40ead1d473c875b5290f9a245a4bbc45}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Details@{set\+Details}}
+\index{set\+Details@{set\+Details}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Details()}{setDetails()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Details (\begin{DoxyParamCaption}\item[{bool}]{details }\end{DoxyParamCaption})}
+
+
+
+set\+Details\+: setter method for the details bool. 
+
+Sets the objects details attribute if true details will be shown if false details will not be shown. 
+\begin{DoxyParams}{Parameters}
+{\em details} & a bool used to turn on and off the details on the G\+UI \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a66f900727e8d6ffa0883650ab5af5896}\label{classstd_1_1WeatherProfile_a66f900727e8d6ffa0883650ab5af5896}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Display\+Weather@{set\+Display\+Weather}}
+\index{set\+Display\+Weather@{set\+Display\+Weather}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Display\+Weather()}{setDisplayWeather()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Display\+Weather (\begin{DoxyParamCaption}\item[{bool}]{display\+Weather }\end{DoxyParamCaption})}
+
+
+
+set\+Display\+Weather\+: setter method for display\+Weather bool. 
+
+Sets the object display\+Weather to the parameter passed in to change weather or not the weather data will be displayed 
+\begin{DoxyParams}{Parameters}
+{\em display\+Weather} & A boolean used to change the display\+Weather \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_ad444f5fd9133e627cac077649701ecd9}\label{classstd_1_1WeatherProfile_ad444f5fd9133e627cac077649701ecd9}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Json\+Data@{set\+Json\+Data}}
+\index{set\+Json\+Data@{set\+Json\+Data}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Json\+Data()}{setJsonData()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Json\+Data (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{data }\end{DoxyParamCaption})}
+
+
+
+set\+Json\+Data\+: setter method for the my\+Json\+Data. 
+
+function call sets the Q\+Json\+Object my\+Json\+Data to the parameter data 
+\begin{DoxyParams}{Parameters}
+{\em data} & Q\+Json\+Object to set the object my\+Json\+Data to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a4bf85a91cd9114d9d554fb938f590be7}\label{classstd_1_1WeatherProfile_a4bf85a91cd9114d9d554fb938f590be7}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Location@{set\+Location}}
+\index{set\+Location@{set\+Location}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Location()}{setLocation()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Location (\begin{DoxyParamCaption}\item[{int}]{location }\end{DoxyParamCaption})}
+
+
+
+get\+Location\+: setter method for location int. 
+
+Sets the object location to the parameter passed in to change the users location 
+\begin{DoxyParams}{Parameters}
+{\em display\+Weather} & A int used to change the location \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_acaaf7209803cef37835a4102fc5298d2}\label{classstd_1_1WeatherProfile_acaaf7209803cef37835a4102fc5298d2}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Units@{set\+Units}}
+\index{set\+Units@{set\+Units}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Units()}{setUnits()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Units (\begin{DoxyParamCaption}\item[{bool}]{unit }\end{DoxyParamCaption})}
+
+
+
+set\+Units\+: setter method for location int. 
+
+Sets the object units to the parameter passed in to change if the units will be celcius or fahrenheit 
+\begin{DoxyParams}{Parameters}
+{\em units} & A bool used to change the unit type \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a0789caeeaa53cc62d69d7bc00c927191}\label{classstd_1_1WeatherProfile_a0789caeeaa53cc62d69d7bc00c927191}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!set\+Week@{set\+Week}}
+\index{set\+Week@{set\+Week}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{set\+Week()}{setWeek()}}
+{\footnotesize\ttfamily void std\+::\+Weather\+Profile\+::set\+Week (\begin{DoxyParamCaption}\item[{bool}]{week }\end{DoxyParamCaption})}
+
+
+
+set\+Week\+: setter method for week bool. 
+
+Sets the objects week attribute if true then the 5day foprcast will be shown if false then the 1 day forcast will be shown. 
+\begin{DoxyParams}{Parameters}
+{\em week} & a bool used the change the forecast from 1 day to 5 day \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a0dd7030c23696ecaf76413ebaabb4645}\label{classstd_1_1WeatherProfile_a0dd7030c23696ecaf76413ebaabb4645}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!display\+Weather@{display\+Weather}}
+\index{display\+Weather@{display\+Weather}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{display\+Weather}{displayWeather}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::display\+Weather\hspace{0.3cm}{\ttfamily [private]}}
+
+bool stores the value of display\+Weather if true \mbox{\Hypertarget{classstd_1_1WeatherProfile_a3697df85fcaa2ce90eb0977e15198674}\label{classstd_1_1WeatherProfile_a3697df85fcaa2ce90eb0977e15198674}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!location@{location}}
+\index{location@{location}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{location}{location}}
+{\footnotesize\ttfamily int std\+::\+Weather\+Profile\+::location\hspace{0.3cm}{\ttfamily [private]}}
+
+int stores the integer value of the users city to be used in api call \mbox{\Hypertarget{classstd_1_1WeatherProfile_acfad2d74172239aacca63f28937d4da2}\label{classstd_1_1WeatherProfile_acfad2d74172239aacca63f28937d4da2}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!manager@{manager}}
+\index{manager@{manager}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily Q\+Network\+Access\+Manager$\ast$ std\+::\+Weather\+Profile\+::manager = new Q\+Network\+Access\+Manager(this)}
+
+
+
+manager creates a new object manager of type Q\+Network\+Manager. 
+
+manger is used to make and request the api calls used in populating my\+Json\+Data. \begin{DoxySeeAlso}{See also}
+\hyperlink{classstd_1_1WeatherProfile_aeb52ea5de93919d86850317b0f74ed63}{data\+Changed()} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a6c0d57cb39083e505e393ba1473ed67b}\label{classstd_1_1WeatherProfile_a6c0d57cb39083e505e393ba1473ed67b}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!my\+Json\+Data@{my\+Json\+Data}}
+\index{my\+Json\+Data@{my\+Json\+Data}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{my\+Json\+Data}{myJsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::\+Weather\+Profile\+::my\+Json\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+class attributes for objects of type \hyperlink{classstd_1_1WeatherProfile}{Weather\+Profile} 
+
+Q\+Json\+Object stores the value of the api call in my\+Json\+Data 
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a17f3618b6762d5056c38e4df66e1bf1e}\label{classstd_1_1WeatherProfile_a17f3618b6762d5056c38e4df66e1bf1e}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!details@{details}}
+\index{details@{details}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{details}{details}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::details\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value of details if they are to be displayed \mbox{\Hypertarget{classstd_1_1WeatherProfile_a3c41afc87f5e952779cb6e9a68b6b941}\label{classstd_1_1WeatherProfile_a3c41afc87f5e952779cb6e9a68b6b941}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!Json\+Data@{Json\+Data}}
+\index{Json\+Data@{Json\+Data}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{Json\+Data}{JsonData}}
+{\footnotesize\ttfamily Q\+Json\+Object std\+::\+Weather\+Profile\+::\+Json\+Data\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}}
+
+
+
+Json\+Data\+: getter function of my\+Json\+Data. 
+
+defines the Q\+\_\+object and its properties to be used in the qml
+
+function call returns my\+Json\+Data of type Q\+Json\+Object to where it was called from \begin{DoxyReturn}{Returns}
+returns my\+Json\+Data object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstd_1_1WeatherProfile_a25ca50e0d8a3d4fa258db8e26083e8e1}\label{classstd_1_1WeatherProfile_a25ca50e0d8a3d4fa258db8e26083e8e1}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!units@{units}}
+\index{units@{units}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{units}{units}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::units\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value for the type opf unit to be displayed \mbox{\Hypertarget{classstd_1_1WeatherProfile_ac150fcba688d439c2abbe6820d385837}\label{classstd_1_1WeatherProfile_ac150fcba688d439c2abbe6820d385837}} 
+\index{std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}!week@{week}}
+\index{week@{week}!std\+::\+Weather\+Profile@{std\+::\+Weather\+Profile}}
+\subsubsection{\texorpdfstring{week}{week}}
+{\footnotesize\ttfamily bool std\+::\+Weather\+Profile\+::week\hspace{0.3cm}{\ttfamily [read]}}
+
+bool stores the value of week if the forecast is 1day or 5day 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+weatherprofile.\+h\item 
+moc\+\_\+weatherprofile.\+cpp\item 
+weatherprofile.\+cpp\end{DoxyCompactItemize}
